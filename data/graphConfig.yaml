@@ -1,5 +1,7 @@
-enableLegend: false
+enableLegend: true
 enableDrag: true
 enableZoom: true
 paths:
   - /moc: "#4388cc"
+  - /ITS: "#c14343"
+  - /DnD: "#3eb281"
