@@ -1,7 +1,7 @@
 baseURL = "https://slrvb.github.io/Site/"
 languageCode = "en-us"
 pygmentsUseClasses = true
-ignoreFiles = ["/content/00 Technical/ 0 Templates/*"]
+ignoreFiles = ["/content/00 Technical/0 Templates/*"]
 
 [markup]
     [markup.tableOfContents]
