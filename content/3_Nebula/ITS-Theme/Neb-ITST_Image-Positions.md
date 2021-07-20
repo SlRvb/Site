@@ -1,4 +1,4 @@
 ---
-alias: "Image Positions"
+alias: Image Positions
 title: "Image-Positions"
 ---

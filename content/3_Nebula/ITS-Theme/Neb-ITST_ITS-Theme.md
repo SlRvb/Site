@@ -1,5 +1,5 @@
 ---
-alias: "ITS Theme"
+alias: ITS Theme
 title: "ITS-Theme"
 ---
 

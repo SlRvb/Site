@@ -1,5 +1,5 @@
 ---
-alias: "Nebula"
+alias: Nebula
 title: "Nebula"
 ---
 

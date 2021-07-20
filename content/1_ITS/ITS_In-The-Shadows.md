@@ -1,4 +1,4 @@
 ---
-alias: 'In The Shadows'
+alias: In The Shadows
 title: "In The Shadows"
 ---
