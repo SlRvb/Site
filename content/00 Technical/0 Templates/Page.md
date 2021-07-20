@@ -1,3 +1,3 @@
 ---
-title: "<% tp.file.title.split(" - ") %>"
+title: "<% tp.file.title.split(" - ")[1] %>"
 ---
