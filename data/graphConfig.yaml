@@ -2,6 +2,6 @@ enableLegend: true
 enableDrag: true
 enableZoom: true
 paths:
-  - /moc: "#4388cc"
-  - /ITS: "#c14343"
-  - /DnD: "#3eb281"
+  - /10 ITS: "#c14343"
+  - /20 DnD: "#3eb281"
+  - /30 Nebula: "#4388cc"
