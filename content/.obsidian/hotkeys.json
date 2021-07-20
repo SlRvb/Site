@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ]
+}

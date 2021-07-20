@@ -1,0 +1,107 @@
+{
+  "main": {
+    "id": "70b2723fcad8ceb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c69591089a397cb",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        },
+        "group": "73ce93f1d0c3e7a5"
+      },
+      {
+        "id": "759a0ba9b22ba57a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        },
+        "group": "73ce93f1d0c3e7a5"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e0eff3de810195a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bed5b404d3b3027c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80a2b97c50bba0cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "79aa8a9be5eab80b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9ec4e03cced21ed9",
+    "type": "split",
+    "children": [
+      {
+        "id": "35af57777ba4d152",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da4096ff33328e38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "759a0ba9b22ba57a",
+  "lastOpenFiles": [
+    "3_Nebula/ITS-Theme/Neb-ITST_Image-Positions.md",
+    "3_Nebula/ITS-Theme/Neb-ITST_ITS-Theme.md",
+    "0_Technical/0_Templates/Page.md",
+    "3_Nebula/Neb_Nebula.md",
+    "1_ITS/ITS_In-The-Shadows.md",
+    "2_DnD/DnD_DnD-Wiki.md",
+    "_index.md",
+    "3_Nebula/ITS Theme/Neb-ITST_Image-Positions.md",
+    "3_Nebula/ITS Theme/Neb-ITST_ITS-Theme.md",
+    "0_Technical/0 Templates/Page.md"
+  ]
+}
