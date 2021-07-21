@@ -6,7 +6,28 @@
   --lt-colours-gray: var(--outlinegray) !important;
 }
 
-h1, h2, h3, h4, ol, ul, thead {
+
+/*Headings/Headers*/
+h1:after, 
+h2:after, 
+h3:after, 
+h4:after {
+    content: "";
+    display: block;
+    background: var(--table);
+    height: 4px;
+    left: 0;
+}
+
+h1:after { width: 100%; }
+h2:after { width: 85%; }
+h3:after { width: 65%; }
+h4:after { width: 40%; }
+
+
+
+
+ol, ul, thead {
   font-family: Inter;
   color: var(--dark)
 }
@@ -86,14 +107,6 @@ p, tbody, li {
   font-family: Source Sans Pro;
   color: var(--gray);
   line-height: 1.5em;
-}
-
-h2 {
-  opacity: 0.85;
-}
-
-h3 {
-  opacity: 0.75;
 }
 
 blockquote {
@@ -222,13 +235,11 @@ a[href^="/"] {
         margin: 0.5em 0;
         padding: 0.25em 1em;
         border: var(--outlinegray) 1px solid;
-        border-radius: 5px
       }
     }
   }
 
   & #graph-container {
     border: var(--outlinegray) 1px solid;
-    border-radius: 5px
   }
 }
