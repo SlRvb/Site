@@ -19,6 +19,50 @@
   --tertiary: #61afef !important;
   --primary: #f58382 !important;
   --gray: #aab3ca !important;
+
+
   --lightgray: #292633 !important;
   --outlinegray: #2a3b55 !important;
+
+  --deep-dark-accent: #3f1010 /*#2f1010*/;
+    --dark-accent: #652121 /*#571a1a, #53201F*/;
+    --lite-accent: #e06c75;
+    --accent: #863737/*#883737, #c14343*/;
+    --accent2: #42536e/*#4c78cc*/;
+    --accent2-lite: #61afef;
+    --bg: #252c36;
+    --fg: #cfd7dd;
+    --side-bar: var(--note);
+    --outer-bar: #0b0f13 /*#0e0f15*/;
+    --dark-sidebar: #0d1014;
+    --inactive: #586477;
+    --outline: var(--outer-bar);
+
+    --folder: #e05858;
+    --file: #aab3ca;
+    --f-icon: var(--inactive);
+    --f-hover: var(--accent);
+    --lines: var(--hr);
+        
+    --note: #1a1e24;
+    --text: #bccad8;
+    --headers: #c14343;
+    --soft-text: #aab3ca;
+    --code-text: #fa4545;
+    --footnote: #6e7e89;
+
+    --code-bg: #232831;
+    --embed-bg: var(--dark-sidebar);
+    --aside-bg: #11151d;
+
+    --th: var(--dark-accent);
+    --td: #06080c60;
+    
+    --hvr: var(--text-highlight-bg);
+    --hvr2: var(--text-selection);
+    
+    --tag: var(--th);
+    --table: #283846;
+    --hr: #2a3b55;
+    --i-at: #bf5e5e;
 }

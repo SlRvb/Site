@@ -8,15 +8,21 @@
 
 
 /*Headings/Headers*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  font-family: 'Calisto MT', 'Inter';
+  color: var(--headers);
+}
+
 h1:after, 
 h2:after, 
 h3:after, 
 h4:after {
-    content: "";
-    display: block;
-    background: var(--table);
-    height: 4px;
-    left: 0;
+  content: "";
+  display: block;
+  background: var(--table);
+  height: 4px;
+  left: 0;
 }
 
 h1:after { width: 100%; }
