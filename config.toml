@@ -1,4 +1,4 @@
-baseURL = "https://slrvb.github.io/"
+baseURL = "https://SlRvb.github.io"
 languageCode = "en-us"
 pygmentsUseClasses = true
 ignoreFiles = ["/content/0_Technical/0_Templates/*"]
