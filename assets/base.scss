@@ -3,7 +3,7 @@
   --lt-colours-lightgray: var(--lightgray) !important;
   --lt-colours-dark: var(--lite-accent) !important;
   --lt-colours-secondary: var(--accent2-lite) !important;
-  --lt-colours-gray: var(--outlinegray) !important;
+  --lt-colours-gray: var(--lines) !important;
 }
 
 
@@ -15,7 +15,7 @@
 
 
 /*Headings/Headers*/
-h1, h2, h3, h4, h5, h6 {
+title, h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   font-family: 'Calisto MT', 'Inter';
   color: var(--headers);
@@ -57,11 +57,12 @@ ol, ul, thead {
 }
 
 p, ul, text {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--txt-fnt);
   color: var(--soft-text);
   fill: var(--soft-text);
 }
 
+/*Links*/
 a {
   font-family: var(--txt-fnt);
   font-size: 1em;
@@ -72,21 +73,23 @@ a {
   &:hover {
     color: var(--accent2-lite) !important;
   }
-}
-
-// internal link
-a[href^="/"]::after {
+  // Internal Link
+  &[href^="/"]::after {
     content: "\e819";
     font-family: var(--its);
     color: var(--accent);
-    margin-right: -5px;
+    margin-right: -7px;
+  }
+
+  //External Link
+  &[href^="http"]::after {
+    content: "\e818";
+    font-family: var(--its);
+    color: var(--accent);
+    margin-right: -7px;
+  }
 }
-a[href^="http"]::after {
-  content: "\e818";
-  font-family: var(--its);
-  color: var(--accent);
-  margin-right: -5px;
-}
+
 
 
 /*Bullet Lines*/
@@ -117,6 +120,11 @@ ul li::before {
 ul li:nth-child(even)::before {
   color: var(--accent2);
 }
+
+ul, ol { 
+  padding-inline-start: 25px;
+}
+
 
 #TableOfContents > ol {
   counter-reset: section;
@@ -171,7 +179,7 @@ sup {
 }
 
 p, tbody, li {
-  font-family: Source Sans Pro;
+  font-family: var(--txt-fnt);
   color: var(--text);
   line-height: 1.5em;
   font-size: 16px;
@@ -234,7 +242,7 @@ code {
   font-size: 0.85em;
   padding: 0.15em 0.3em;
   border-radius: 5px;
-  background: var(--lightgray);
+  background: var(--code-bg);
 }
 
 html {
@@ -292,9 +300,6 @@ hr {
 }
 
 
-
-
-
 .singlePage {
   margin: 4em 30vw;
 
@@ -326,12 +331,12 @@ hr {
       & > li {
         margin: 0.5em 0;
         padding: 0.25em 1em;
-        border: var(--outlinegray) 1px solid;
+        border: var(--lines) 1px solid;
       }
     }
   }
 
   & #graph-container {
-    border: var(--outlinegray) 1px solid;
+    border: var(--lines) 1px solid;
   }
 }
