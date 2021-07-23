@@ -15,11 +15,21 @@
 
 
 /*Headings/Headers*/
-title, h1, h2, h3, h4, h5, h6 {
+.title {
+  text-align: center;
+  font-size: calc(var(--f-s-h) + 5px);
+
+  &::after {
+    display: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   font-family: 'Calisto MT', 'Inter';
   color: var(--headers);
 }
+
 
 h5, h6 {
   color: var(--text);
@@ -74,7 +84,8 @@ a {
     color: var(--accent2-lite) !important;
   }
   // Internal Link
-  &[href^="/"]::after {
+  &[href^="/"]::after,
+  &[href^="../"]::after {
     content: "\e819";
     font-family: var(--its);
     color: var(--accent);
@@ -215,14 +226,6 @@ td, th {
 
 .footnotes p {
   margin: 0.5em 0;
-}
-
-article a {
-  font-family: Source Sans Pro;
-  font-weight: 600;
-  text-decoration: underline;
-  text-decoration-color: var(--accent2-lite);
-  text-decoration-thickness: .15em;
 }
 
 sup > a {
