@@ -57,8 +57,8 @@ h1 { font-size: var(--f-s-h); }
 h2 { font-size: calc(var(--f-s-h) - 4px); }
 h3 { font-size: calc(var(--f-s-h) - 8px); }
 h4 { font-size: calc(var(--f-s-h) - 10px); }
-h5 { font-size: calc(var(--f-s-h) - 14px); }
-h6 { font-size: calc(var(--f-s-h) - 16px); }
+h5 { font-size: calc(var(--f-s-h) - 10px); }
+h6 { font-size: calc(var(--f-s-h) - 14px); }
 
 
 ol, ul, thead {
@@ -85,6 +85,7 @@ a {
   }
   // Internal Link
   &[href^="/"]::after,
+  &[href^="./"]::after,
   &[href^="../"]::after {
     content: "\e819";
     font-family: var(--its);
@@ -101,8 +102,6 @@ a {
   }
 }
 
-
-
 /*Bullet Lines*/
 li {
   padding-left: 5px;
@@ -114,7 +113,7 @@ li {
   }
 }
 
-li::marker {
+ul li::marker {
   color: transparent;
 }
 ul li::before {
@@ -132,8 +131,10 @@ ul li:nth-child(even)::before {
   color: var(--accent2);
 }
 
-ul, ol { 
-  padding-inline-start: 25px;
+/*Table Of Contents*/
+.mainTOC{
+  background-color: var(--aside-bg);
+  padding: 10px 20px;
 }
 
 
@@ -159,7 +160,7 @@ ul, ol {
   }
 
   & > li::marker, & > li > ol > li::marker {
-    font-family: Source Sans Pro;
+    font-family: var(--txt-fnt);
     font-weight: 700;
   }
 }
@@ -169,20 +170,56 @@ footer {
   text-align: center;
 }
 
-
+/*Table*/
 table {
-  width: 100%;
+  border-spacing: 0;
+  margin: 20px;
+  font-family: var(--txt-fnt);
+  padding: 10px;
+  margin: auto;
+}
+td, th {
+  padding: 5px 10px;
+  border: none;
+}
+th {
+    background-color: var(--th);
+    color: #edf7ff;
+    border: 0px;
+}
+th:nth-child(even) {
+    opacity: 80%;
+    border-left: 1px solid var(--note);
+    border-right: 1px solid var(--note);
 }
 
-img {
-  width: 100%;
-  border-radius: 3px;
-  margin: 1em 0;
+td:nth-child(odd) {
+    background-color: var(--td);
+    border: 0;
+    border-bottom: 1px solid var(--note);
 }
 
-p>img+em {
-  display: block;
-  transform: translateY(-1em);
+tr:nth-child(even) {
+    background-color: var(--td);
+    border: 0;
+}
+
+
+
+/*Code*/
+code,
+pre {
+    color: var(--code-text);
+    font-family: 'Fira Code Medium';
+    background-color: var(--code-bg);
+    line-height: 1.4em;
+    border-radius: 0;
+    overflow: auto;
+    border: 1px solid var(--td);
+    box-shadow: 0 .2em #00000010;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px 4px;
 }
 
 sup {
@@ -197,7 +234,7 @@ p, tbody, li {
 }
 
 blockquote {    
-  display: flow-root;
+  display: grid;
   border: 0px solid var(--bg);
   background-color: var(--embed-bg);
   border-left-width: 8px;
@@ -216,13 +253,6 @@ blockquote {
   }
 }
 
-table {
-  padding: 1.5em;
-}
-
-td, th {
-  padding: 0.1em 0.5em;
-}
 
 .footnotes p {
   margin: 0.5em 0;
@@ -233,20 +263,7 @@ sup > a {
   padding: 0 0.1em 0 0.2em;
 }
 
-pre {
-  font-family: 'Fira Code';
-  padding: 0.75em;
-  border-radius: 3px;
-  overflow-x: scroll;
-}
 
-code {
-  font-family: 'Fira Code';
-  font-size: 0.85em;
-  padding: 0.15em 0.3em;
-  border-radius: 5px;
-  background: var(--code-bg);
-}
 
 html {
   scroll-behavior: smooth;
@@ -342,4 +359,126 @@ hr {
   & #graph-container {
     border: var(--lines) 1px solid;
   }
+}
+
+
+
+
+
+/*Images*/
+p>img+em {
+  display: block;
+  transform: translateY(-1em);
+}
+
+img[alt*="cover"]{
+  object-fit: cover;
+}
+
+/*Height*/
+img[alt*="hmicro"]{  height: var(--micro); }
+img[alt*="htiny"]{  height: var(--tiny); }
+img[alt*="hsmall"]{ height: var(--small); }
+img[alt*="hs-med"]{ height: var(--small-med); }
+img[alt*="hm-sm"]{  height: var(--med-small); }
+img[alt*="hmed"]{   height: var(--medium); }
+img[alt*="hm-tl"]{  height: var(--med-tall); }
+img[alt*="htall"]{  height: var(--tall); }
+
+/*Width*/
+img[alt*="wmicro"]{   width: var(--micro); }
+img[alt*="wtiny"]{    width: var(--tiny); }
+img[alt*="wsmall"]{   width: var(--small); }
+img[alt*="ws-med"]{   width: var(--small-med); }
+img[alt*="wm-small"]{ width: var(--med-small); }
+img[alt*="wmed"]{     width: var(--medium); }
+img[alt*="wm-tl"]{    width: var(--med-tall); }
+img[alt*="wtall"]{    width: var(--tall); }
+
+
+/*--Image Position--*/
+/*Inner Image*/
+img[alt*="pt"]{
+  object-fit: cover;
+  object-position: top;
+}
+img[alt*="pb"] {
+  object-fit: cover;
+  object-position: bottom;
+}
+img[alt*="pl"] {
+  object-fit: cover;
+  object-position: left;
+}
+img[alt*="p+cl"] {
+  object-fit: cover;
+  object-position: 25%;
+}
+img[alt*="pr"] {
+  object-fit: cover;
+  object-position: right;
+}
+img[alt*="p+cr"] {
+  object-fit: cover;
+  object-position: 75%;
+}
+img[alt*="pc"] {
+  object-fit: cover;
+  object-position: center;
+}
+img[alt*="p+tc"] {
+  object-fit: cover;
+  object-position: 50% 10%;
+}
+img[alt*="p+tcc"] {
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+img[alt*="p+cct"] {
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+img[alt*="p+ct"] {
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+img[alt*="p+cb"] {
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+img[alt*="p+ccb"] {
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+img[alt*="p+bc"] {
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+img[alt*="p+bcc"] {
+  object-fit: cover;
+  object-position: 50% 90%;
+}
+
+
+/*Image Locations*/
+img[alt*="locl"] {
+  float:left;
+  margin-right: 2%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img[alt*="locr"] {
+  float:right;
+  margin-left: 2%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/*--Image Shapes--*/
+/*Banners*/
+img[alt*="sban"], .internal-embed img[alt*="sban"] {
+  object-fit: cover;
+  width: 100%;
 }

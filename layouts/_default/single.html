@@ -3,9 +3,9 @@
 {{ partial "head.html" . }}
 
 <body>
-<div class="singlePage">
+    <div class="singlePage">
     <!-- Begin actual content -->
-    {{partial "darkmode.html" .}}
+    <aside class="sidebar">{{partial "darkmode.html" .}}</aside>
     <article>
         {{if .Title}}<h1 class="title">{{ .Title }}</h1>{{end}}
         {{if $.Site.Data.config.enableToc}}

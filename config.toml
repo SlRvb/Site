@@ -7,9 +7,9 @@ disablePathToLower = true
 
 [markup]
     [markup.tableOfContents]
-        endLevel = 3
+        endLevel = 6
         ordered = true
-        startLevel = 2
+        startLevel = 1
     [markup.highlight]
         anchorLineNos = false
         codeFences = true

@@ -1,4 +1,16 @@
 ---
-alias: DnD Wiki, D&D, D&D Wiki
+alias: DnD Wiki, D&D Wiki
 title: "DnD Wiki"
+include_toc: false
+cssclass: dnd
 ---
+
+# Universes
+
+
+# Dungeons & Dragons
+- [Spells](2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells.md)
+
+# Characters
+- [Angela Navarro](2_DnD/Characters/DnD_Angela-Navarro.md)
+- [Naunet](2_DnD/Characters/DnD_Naunet.md)
