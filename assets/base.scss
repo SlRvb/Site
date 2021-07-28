@@ -138,13 +138,13 @@ ul li:nth-child(even)::before {
 }
 
 
-#TableOfContents > ol {
+#TableOfContents > ul {
   counter-reset: section;
   margin-left: 0em;
   padding-left: 1.5em;
   & > li {
     counter-increment: section;
-    & > ol {
+    & > ul {
       counter-reset: subsection;
       & > li {
         counter-increment: subsection;
@@ -154,11 +154,11 @@ ul li:nth-child(even)::before {
       }
     }
   }
-
+  
   & > li::marker {
     content: counter(section) "  ";
   }
-
+  
   & > li::marker, & > li > ol > li::marker {
     font-family: var(--txt-fnt);
     font-weight: 700;

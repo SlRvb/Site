@@ -3,14 +3,15 @@ alias: Image Positions
 title: "Image Positions"
 ---
 
-###### by [SlRvb](https://SlRvb.github.io/Site/)
-Inspired by [Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css)
+# by [SlRvb](https://SlRvb.github.io/Site/)
+Inspired by **[Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css)**
 
 
-## Syntax
-<s class="aside-in">**⚠ Note:** Markdown syntax will need the note to be reopened to see changes.</s>
+# Syntax
+> **⚠ Note:** Markdown syntax will need the note to be reopened to see changes.
 
 **Wiki Links:** `![[Image.png|modifier+modifier|#]]`
+
 **Markdown:** `![|modifier+modifier|#](Image.png)`
 
 
@@ -19,26 +20,26 @@ Inspired by [Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.
 - `|` is required *after* the image extension and *before* Obsidian's sizing numbers
 - `+` can be anything:
 	- `![[Image.png|left-pt-sban|200]]`
-	`![[Image.png|left_pt_sban|200]]`
-	`![[Image.png|left|pt|sban|200]]`
-	`![[Image.png|left pt sban|200]]`
+	- `![[Image.png|left_pt_sban|200]]`
+	- `![[Image.png|left|pt|sban|200]]`
+	- `![[Image.png|left pt sban|200]]`
 
 	
 
-## Simplified Version
+# Simplified Version
 > Optimized for easier comprehension and "quicker" styling
 
 `![[Image.png|left+small]]`
 
 
-### Positions
+## Positions
 `left`, `center`, `right`
 
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Simple%20-%20Positions.png)
 
 
-### Types
-<s class="aside-in">Style of sizing for images.</s>
+## Types
+Style of sizing for images.
 
 ||
 ---|---|
@@ -50,22 +51,23 @@ Inspired by [Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Simple%20-%20Types.png)
 
 
-### Type Sizing
-<s class=aside-in>⚠ **Note**: Obsidian's number sizing `|###` will **not** work with these.</s>
+## Type Sizing
+> **⚠ Note**: Obsidian's number sizing `|##` will **not** work with these.
 
 **Format**: `![[Image.png|modifier+size]]`
 
-- **Banner & Portrait **use `+small` and `+tall` sizing
+- **Banner & Portrait** use `+small` and `+tall` sizing
 - **Profile** uses `+medium` only.
 
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Simple%20-%20Sizing.png)
 
 ---
-## Customizable Version
+
+# Customizable Version
 > Allows for more adjustments to images than the **Simplified Version**.
 
 
-### Position & Types
+## Position & Types
 
 ||
 ---|---|
@@ -78,11 +80,11 @@ Inspired by [Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Pos+Types.png)
 
 
-### Inner Photo Position
+## Inner Photo Position
 > Adjustments to target which part of the *inside* of the image to move around, **not** the where the image is moved to on a page.
 
 
-#### Basic
+## Basic
 
 Basic | Position|
 :---:|---|
@@ -94,7 +96,7 @@ Basic | Position|
 
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Inner%20Position%20Basic.png)
 
-#### Precise
+## Precise
 **Format**: `![[|p+precise]]`
 
 Top |  Bottom | Left | Right |
@@ -107,7 +109,7 @@ Top |  Bottom | Left | Right |
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Inner%20Position%20Precise.png)
 
 
-### Sizing
+## Sizing
 
 Height | Width | PX | 
 ---|---|---:| 
@@ -123,8 +125,8 @@ Height | Width | PX |
 ![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Sizing.png)
 
 
-## Extras
-Uses some of the [Auto-Adaptive Images](https://forum.obsidian.md/t/auto-adaptive-images-for-dark-light-theme/13494) snippet with slightly different synax.
+# Extras
+Uses some of the [**Auto-Adaptive Images**](https://forum.obsidian.md/t/auto-adaptive-images-for-dark-light-theme/13494) snippet with slightly different synax.
 
 ||
 ---|---|
