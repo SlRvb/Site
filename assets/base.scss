@@ -4,6 +4,13 @@
   --lt-colours-dark: var(--lite-accent) !important;
   --lt-colours-secondary: var(--accent2-lite) !important;
   --lt-colours-gray: var(--lines) !important;
+
+  --code-pink: #f859b3;
+  --code-yellow: var(--accent2-lite);
+  --code-purple: #bd93f9;
+  --code-blue: #6272a4;
+  --code-blue-lite: #81979c;
+  --code-green: #6dce85;
 }
 
 
@@ -92,7 +99,7 @@ a {
     color: var(--accent);
     margin-right: -7px;
   }
-
+  
   //External Link
   &[href^="http"]::after {
     content: "\e818";
@@ -100,6 +107,8 @@ a {
     color: var(--accent);
     margin-right: -7px;
   }
+  //Linked Image
+  &[href$=".png"]::after { content: ""; }
 }
 
 /*Bullet Lines*/
@@ -221,6 +230,25 @@ pre {
     font-weight: 500;
     padding: 2px 4px;
 }
+.chroma {
+  background-color: var(--code-bg) !important;
+  border-radius: 0 !important;
+  border: unset;
+  
+  & .lntable tr > .lntd:nth-child(1) { width: 0; }
+
+  & code {
+    box-shadow: unset;
+    border: 0;
+  }
+}
+/*Syntax Highlight Recolor
+.chroma {
+  & .s2 { color: var(--accent2-lite) !important; }
+  & .k { color: var(--lite-accent) !important; }
+  & .o { color: var(--inactive) !important; }
+  & .nb { color: var(--tag) !important; }
+}*/
 
 sup {
   line-height: 0

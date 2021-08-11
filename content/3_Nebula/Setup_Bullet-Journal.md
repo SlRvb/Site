@@ -5,7 +5,7 @@ title: "Bullet Journal"
 
 > How I personally go about journaling the things that happen in my life.
 
-![](0_Technical/1_Images/Setup-Journal.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal.png)](/0_Technical/1_Images/Setup-Journal.png)
 
 # Resources
 **CSS:**
@@ -78,7 +78,7 @@ LIMIT 7
 ````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Homepage.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal-Homepage.png)](/0_Technical/1_Images/Setup-Journal-Homepage.png)
 
 ## Timeline
 > Timeline page was inspired by this [**Timeline - § Sim Salis - Obsidian Publish**](https://publish.obsidian.md/sim/Timeline), but it's now defunct a link unfortunately.
@@ -113,7 +113,7 @@ SORT rows.file.name desc
 ````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Workout%20DV.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Workout-DV.png)](0_Technical/1_Images/Setup-Journal_Workout-DV.png)
 
 ## Conditions Log
 There was a lot of information on these pages, so I opted to get very CSS heavy on the dataview query so that I could still glance and get the information I needed.
@@ -129,7 +129,7 @@ SORT rows.file.name desc
 ````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Conditions%20Log%20DV.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Conditions-Log-DV.png)](0_Technical/1_Images/Setup-Journal_Conditions-Log-DV.png)
 
 ## Code Diary
 
@@ -143,7 +143,7 @@ SORT rows.file.name desc
 ````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Code%20Diary%20DV.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Code-Diary-DV.png)](0_Technical/1_Images/Setup-Journal_Code-Diary-DV.png)
 
 ## Resonance Calendar
 
@@ -166,7 +166,7 @@ SORT rows.Date desc
 `````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Resonance%20Calendar%20DV.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Resonance-Calendar-DV.png)](0_Technical/1_Images/Setup-Journal_Resonance-Calendar-DV.png)
 
 ## Update Log
 ````sql
@@ -179,7 +179,7 @@ SORT rows.file.name desc
 ````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Update%20Log%20DV.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Update-Log-DV.png)](0_Technical/1_Images/Setup-Journal_Update-Log-DV.png)
 
 # Journal Sections 
 The naming scheme of my files is something new and was done to help me quickly identify what type of entry it is. My old system just had the date then a title, but when listing or searching through them it was hard to tell what kind I was looking at. So I came up with this:
@@ -312,14 +312,14 @@ Title: <% tp.file.title.split(" - ")[1] %>
 
 ```
 
-![](0_Technical/1_Images/Setup-Journal%20-%20Dream%20Journal%20Page.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Dream-Journal-Page.png)](0_Technical/1_Images/Setup-Journal_Dream-Journal-Page.png)
 
 ## 3 Workout Log
 > The workout log is where I record my reps of my workout routine to measure my progress.
 
 The workout log isn’t anything fancy, I just have a Form section on the table where I note how I felt for that particular exercise. Since there are a *couple* of templates for this part of the journal, I’ll show the results first so you understand what all these pages end up looking like since they’re all the same.
 
-![](0_Technical/1_Images/Setup-Journal%20-%20Workout%20Log%20Page.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Workout-Log-Page.png)](0_Technical/1_Images/Setup-Journal_Workout-Log-Page.png)
 
 **Arm Day Template**
 ````md
@@ -549,7 +549,7 @@ Distress | ` dv= this.Distress`
 ```
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Condition%20Page.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Condition-Page.png)](0_Technical/1_Images/Setup-Journal_Condition-Page.png)
 
 ## 5 Code Diary
 > Inspired by this video: [**Code Diary: How and Why to Keep One** by Semicolon&Sons](https://www.youtube.com/watch?v=tarmCEHfGa0), I decided to create a code diary. The video breaks down why to use and what goes into a code diary far more than I will, so do watch the video if you're interested.
@@ -580,7 +580,7 @@ Title: <% tp.file.title.split(" - ")[1] %>
 ````
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Code%20Diary%20Page.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Code-Diary-Page.png)](0_Technical/1_Images/Setup-Journal_Code-Diary-Page.png)
 
 ## 6 Resonance Calendar
 > I was inspired by this video [**How I use Notion as a Resonance Calendar** by Ali Abdaal](https://www.youtube.com/watch?v=lKYBB-Uw1IM), watch through the video for a more indepth look at what a Resonance Calendar is.
@@ -628,7 +628,7 @@ The notes aren't anything special, this is still a fairly new setup for me, so i
 If I haven't finished taking notes on the video I'll just randomly throw in a tag so that it looks ugly and bothers me so I *have* to go through the video to get rid of it. Which is nice because I can have my mind blown all over again.
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Resonance%20Calendar%20Page.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Resonance-Calendar-Page.png)](0_Technical/1_Images/Setup-Journal_Resonance-Calendar-Page.png)
 
 ## 7 Update Log
 > The **Update Log** is where I list out the things I've changed between creation or the last update of a project.
@@ -661,13 +661,13 @@ Title:
 ```
 
 **Result:**
-![](0_Technical/1_Images/Setup-Journal%20-%20Update%20Log%20Page.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_Update-Log-Page.png)](0_Technical/1_Images/Setup-Journal_Update-Log-Page.png)
 
 
 # QuickAdd
 > The QuickAdd plugin allows me to easily select whichever type of journal entry I want to create and enter the information I need.
 
-![](0_Technical/1_Images/Setup-Journal%20-%20QuickAdd%20Prompt.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_QuickAdd-Prompt.png)
 
 My setup here is *very* simple, just a template with some stuff in the file name and folder  input and toggled on `Open` to open to the note once it's created.
 

@@ -3,7 +3,7 @@ alias: Angela Navarro
 title: "Angela Navarro"
 ---
 
-![|locl+hm-sm+cover](https://cdnb.artstation.com/p/assets/images/images/004/035/615/large/faouzi-hamida-compo-cowboygirl.jpg?1479709066)<i id=left>[**Cowboy Girl** by *Faouzi Hamida*](https://faz.artstation.com/projects/DN89)</i>
+[![|locl+hm-sm+cover](https://cdnb.artstation.com/p/assets/images/images/004/035/615/large/faouzi-hamida-compo-cowboygirl.jpg?1479709066)](https://faz.artstation.com/projects/DN89)<i id=left>[**Cowboy Girl** by *Faouzi Hamida*](https://faz.artstation.com/projects/DN89)</i>
 
 > Vengeful gun slinging outlaw
 > **By [SlRvb](SlRvb.md)**

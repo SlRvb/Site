@@ -3,6 +3,10 @@ enableToc: true
 description: SlRvb's site.
 page_title:
   SlRvb
+theme:
+  - base
+  - slrvb-g
+  - dnd
 links:
   - link_name: Github
     link: https://github.com/slrvb
