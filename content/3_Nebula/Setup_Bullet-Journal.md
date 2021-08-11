@@ -667,7 +667,7 @@ Title:
 # QuickAdd
 > The QuickAdd plugin allows me to easily select whichever type of journal entry I want to create and enter the information I need.
 
-[![|sban](/0_Technical/1_Images/Setup-Journal_QuickAdd-Prompt.png)
+[![|sban](/0_Technical/1_Images/Setup-Journal_QuickAdd-Prompt.png)](0_Technical/1_Images/Setup-Journal_QuickAdd-Prompt.png)
 
 My setup here is *very* simple, just a template with some stuff in the file name and folder  input and toggled on `Open` to open to the note once it's created.
 
