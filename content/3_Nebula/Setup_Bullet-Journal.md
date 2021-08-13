@@ -10,6 +10,7 @@ title: "Bullet Journal"
 # Resources
 **CSS:**
 - [ITS Theme](https://forum.obsidian.md/t/theme-its-dark-light-theme) (Also available on the Community Themes)
+- [All Alternate Themes CSS Snippet](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Theme%20-%20All%20Alternate%20Themes.css) (SlRvb Gray toggled on using Style Settings)
 - [Folder Styles CSS Snippet](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Folder%20Styles.css)
 
 **Plugins:**
