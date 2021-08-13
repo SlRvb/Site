@@ -1,6 +1,8 @@
 <h6>Backlinks</h6>
 <ul class="backlinks">
-    {{$curPage := strings.TrimRight "/" .Page.RelPermalink }}
+    {{$url := urls.Parse .Site.BaseURL }}
+    {{$host := strings.TrimRight "/" $url.Path }}
+    {{$curPage := strings.TrimPrefix $host (strings.TrimRight "/" .Page.RelPermalink) }}
     {{$inbound := index $.Site.Data.linkIndex.index.backlinks $curPage}}
     {{if $inbound}}
     {{- range $inbound -}}
@@ -14,4 +16,3 @@
     </li>
     {{end}}
 </ul>
-<script>console.log({{$.Site.Data.linkIndex.index.backlinks}})</script>
