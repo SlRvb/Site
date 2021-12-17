@@ -3,28 +3,26 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="singlePage">
+{{partial "search.html" .}}
+<div class="singlePage">
     <!-- Begin actual content -->
-    <aside class="sidebar">{{partial "darkmode.html" .}}</aside>
+    <header>
+        {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
+        <svg tabindex="0" id="search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+        <div class="spacer"></div>
+        {{partial "darkmode.html" .}}
+    </header>
     <article>
-        {{if .Title}}<h1 class="title">{{ .Title }}</h1>{{end}}
         {{if $.Site.Data.config.enableToc}}
         <aside class="mainTOC">
             <h5>Table of Contents</h5>
             {{ .TableOfContents }}
         </aside>
         {{end}}
-        {{- .Content -}}
+        {{.Content}}
     </article>
     {{partial "footer.html" .}}
 </div>
-
-{{- with resources.Get "darkmode.js" | minify -}}
-<script>
-  {{.Content | safeJS }}
-</script>
-{{- end -}}
-
 </body>
 
 </html>
