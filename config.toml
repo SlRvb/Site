@@ -7,8 +7,6 @@ ignoreFiles = [
     "/content/templates/*",
     "/content/private/*",
 	"/content/0_Technical/0_Templates/*"]
-relativeURLs = true
-disablePathToLower = true
 
 [markup]
     [markup.tableOfContents]
