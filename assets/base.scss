@@ -389,6 +389,14 @@ hr {
   }
 }
 
+/*Button*/
+button.result-card {
+  background-color: var(--aside-bg);
+  & :hover {
+      background-color: var(--embed-bg);
+  }
+}
+
 
 
 
