@@ -4,7 +4,7 @@ title: "Image Positions"
 ---
 
 # by [SlRvb](https://SlRvb.github.io/Site/)
-Inspired by **[Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-Image%20Flags.css)**
+Inspired by **[Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main/.obsidian/snippets/pub-ImageFlags.css)**
 
 
 # Syntax
@@ -35,7 +35,7 @@ Inspired by **[Lithou's Image Flags](https://github.com/Lithou/Sandbox/blob/main
 ## Positions
 `left`, `center`, `right`
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Simple%20-%20Positions.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Simple-Positions.png)
 
 
 ## Types
@@ -48,7 +48,7 @@ Style of sizing for images.
 `p.rofile` | Width and height of the image are equal
 `circle` | Round edges of a squared image (best with `p.rofile`)
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Simple%20-%20Types.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Simple-Types.png)
 
 
 ## Type Sizing
@@ -59,7 +59,7 @@ Style of sizing for images.
 - **Banner & Portrait** use `+small` and `+tall` sizing
 - **Profile** uses `+medium` only.
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Simple%20-%20Sizing.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Simple-Sizing.png)
 
 ---
 
@@ -77,7 +77,7 @@ Style of sizing for images.
 `sban` | Banner sets width of image to 100%, height will be adjustable
 `cover` | Fit image in bounds without stretching
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Pos+Types.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Custom-Pos%2BTypes.png)
 
 
 ## Inner Photo Position
@@ -94,7 +94,7 @@ Basic | Position|
 `pr` | Right
 `pc` | Center
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Inner%20Position%20Basic.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Custom--Inner-Position-Basic.png)
 
 ## Precise
 **Format**: `![[|p+precise]]`
@@ -106,7 +106,7 @@ Top |  Bottom | Left | Right |
 `p+tc` | `p+bc` | 
 `p+tcc` | `p+bcc` | 
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Inner%20Position%20Precise.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Custom--Inner-Position-Precise.png)
 
 
 ## Sizing
@@ -122,7 +122,7 @@ Height | Width | PX |
 `hm-tl` | `wm-tl` | 600
 `htall` | `wtall` | 700
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Custom%20-%20Sizing.png)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Custom-Sizing.png)
 
 
 # Extras
@@ -136,4 +136,4 @@ Uses some of the [**Auto-Adaptive Images**](https://forum.obsidian.md/t/auto-ada
 `invertbc` | Flip image colors of dark lined images
 `clear` | Image will sit below another image if it's on the same side
 
-![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image%20Adjustments-Extras%20Invert.gif)
+![|sban](https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/main/Images/Image_Adjustments-Extras_Invert.gif)
