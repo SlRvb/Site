@@ -71,6 +71,7 @@ h6 { font-size: calc(var(--f-s-h) - 14px); }
 ol, ul, thead {
   font-family: var(--txt-fnt);
   color: var(--text)
+}
 h1, h2, h3, h4, h5, h6, ol, ul, thead {
   font-family: Inter;
   color: var(--dark);
@@ -226,7 +227,7 @@ blockquote {
   border-left: 3px solid var(--secondary);
   padding-left: 1em;
   transition: border-color 0.2s ease;
-
+}
 /*Code*/
 code,
 pre {
