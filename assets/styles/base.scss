@@ -682,70 +682,6 @@ img[alt*="sban"], .internal-embed img[alt*="sban"] {
   width: 100%;
 }
 
-.section-ul {
-  list-style: none;
-  padding-left: 0;
-
-  & > li {
-    border: 1px solid var(--outlinegray);
-    border-radius: 5px;
-    padding: 0 1em;
-    margin-bottom: 1em;
-
-    & h3 {
-      opacity: 1;
-      font-weight: 700;
-      margin-bottom: 0em;
-    }
-
-    & .meta {
-      opacity: 0.6;
-    }
-  }
-}
-
-.popover {
-  z-index: 999;
-  position: absolute;
-  width: 20em;
-  display: inline-block;
-  visibility: hidden;
-  background-color: var(--light);
-  padding: 1em;
-  border: 1px solid var(--outlinegray);
-  border-radius: 5px;
-  transform: translate(-50%, 40%);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  transition-delay: 0.3s;
-  user-select: none;
-
-  @media all and (max-width: 600px) {
-    display: none;
-  }
-
-  &.visible {
-    opacity: 1;
-    visibility: visible;
-    transform: translate(-50%, 20%);
-  }
-
-  & > h3 {
-    font-size: 1rem;
-    margin: 0.25em 0;
-  }
-
-  & > .meta {
-    margin-top: 0.25em;
-    opacity: 0.5;
-  }
-
-  & > p {
-    margin: 0;
-    font-weight: 400;
-    user-select: none;
-  }
 #search-container {
   position: fixed;
   z-index: 9999;
@@ -895,11 +831,14 @@ img[alt*="sban"], .internal-embed img[alt*="sban"] {
 #contact_buttons ul {
   list-style-type: none;
 
-  li {
+  & li {
     display: inline-block;
   }
 
-  li a {
+  & li a {
     padding: 0 1em;
   }
 }
+
+
+}}}
