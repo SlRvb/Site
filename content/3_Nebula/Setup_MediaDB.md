@@ -1,6 +1,9 @@
 ---
 alias: MediaDB
 title: "MediaDB"
+tags: Setup
+
+summary: "Write up of my Media Database setup."
 ---
 
 # MediaDB Vault Setup

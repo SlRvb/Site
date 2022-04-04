@@ -1,6 +1,8 @@
 ---
 alias: Image Positions
 title: "Image Positions"
+
+summary: "Options to adjust alignment of your images."
 ---
 
 # by [SlRvb](https://SlRvb.github.io/Site/)

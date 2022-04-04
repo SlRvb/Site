@@ -1,6 +1,9 @@
 ---
 alias: Bullet Journal
 title: "Bullet Journal"
+tags: Setup
+
+summary: "Write up of my journaling setup."
 ---
 
 > How I personally go about journaling the things that happen in my life.
