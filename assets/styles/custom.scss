@@ -1,7 +1,7 @@
 // Add your own CSS here!
 :root {
-  --light: #faf8f8;
-  --dark: #141021;
+  --light: var(--note); //#faf8f8
+  --dark: var(--text); //#141021
   --secondary: #284b63;
   --tertiary: #84a59d;
   --visited: #afbfc9;
@@ -10,6 +10,7 @@
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
 
+  --text-dl: #f0f0f0;
 
   --deep-dark-accent: #2f1010;
   --dark-accent: #ffeded;
@@ -17,7 +18,7 @@
   --accent: #912e2e;
   --accent2: #aac1d3/*#4c78cc*/;
   --accent2-lite: #5599d0;
-  --bg: #dde4ef;
+  --bg: #e1e9f6;
   --fg: var(--accent) /*#9f0202*/;
   --side-bar: var(--note);
   --outer-bar: #eef3fd;
@@ -43,11 +44,13 @@
   --aside-bg: var(--dark-sidebar);
   
   --th: var(--headers);
+  --th-text: var(--text-dl);
   --td: #d0ddef62;
   
-  --highlight-md: rgba(199, 129, 129, 0.4);
-  --highlight-s: rgba(253, 115, 115, 0.4);
-  --highlight-c: rgba(229, 149, 149, 0.37);
+  /*Highlights*/
+  --hl-md: rgba(199, 129, 129, 0.4);
+  --hl-search: rgba(253, 115, 115, 0.4);
+  --hl-cursor: rgba(229, 149, 149, 0.37);
   
   --hvr: var(--text-highlight-bg);
   --hvr2: var(--text-selection);
@@ -56,6 +59,9 @@
   --table: #ccd6eb;
   --hr: #d6deea;
   --i-at: var(--headers)/*#804848*/;
+  --bttn: var(--headers);
+  --progress: var(--accent);
+  --progress-bg: var(--bg);
 }
 
 :root {
@@ -78,57 +84,65 @@
 }
 
 [saved-theme="dark"] {
-  --light: #1a1e24 !important;
-  --dark: #bccad8 !important;
+  --light: var(--note) !important;
+  --dark: var(--text) !important;
   --secondary: #e06c75 !important;
   --visited: #4a575e !important;
   --tertiary: #61afef !important;
   --primary: #f58382 !important;
-  --gray: #aab3ca !important;
+  --gray: var(--soft-text) !important;
 
 
   --lightgray: #292633 !important;
   --outlinegray: #2a3b55 !important;
 
-  --deep-dark-accent: #3f1010 /*#2f1010*/;
-    --dark-accent: #652121 /*#571a1a, #53201F*/;
-    --lite-accent: #e06c75;
-    --accent: #863737/*#883737, #c14343*/;
-    --accent2: #42536e/*#4c78cc*/;
-    --accent2-lite: #61afef;
-    --bg: #252c36;
-    --fg: #cfd7dd;
-    --side-bar: var(--note);
-    --outer-bar: #0b0f13 /*#0e0f15*/;
-    --dark-sidebar: #0d1014;
-    --inactive: #586477;
-    --outline: var(--outer-bar);
+  --text-highlight-bg: rgba(168, 60, 60, 0.4); 
+  --text-highlight-bg-active: rgba(253, 115, 115, 0.4); 
+  --text-selection: rgba(122, 20, 20, 0.4);
 
-    --folder: #e05858;
-    --file: #aab3ca;
-    --f-icon: var(--inactive);
-    --f-hover: var(--accent);
-    --lines: var(--hr);
-        
-    --note: #1a1e24;
-    --text: #bccad8;
-    --headers: #c14343;
-    --soft-text: #aab3ca;
-    --code-text: #fa4545;
-    --footnote: #6e7e89;
+  --deep-dark-accent: #3f1010; /*#2f1010*/
+  --dark-accent: #652121; /*#571a1a, #53201F*/
+  --lite-accent: #e06c75;
+  --accent: #863737;/*#883737, #c14343*/
+  --accent2: #42536e;/*#4c78cc*/
+  --accent2-lite: #61afef;
+  --bg: #252c36;
+  --fg: #cfd7dd;
+  --side-bar: var(--note);
+  --outer-bar: #0b0f13; /*#0e0f15*/
+  --dark-sidebar: #0d1014;
+  --inactive: #586477;
+  --outline: var(--outer-bar);
 
-    --code-bg: #232831;
-    --embed-bg: var(--dark-sidebar);
-    --aside-bg: #11151d;
+  --folder: #e05858;
+  --file: #aab3ca;
+  --f-icon: var(--inactive);
+  --f-hover: var(--accent);
+  --lines: var(--hr)/*#465164*/;
+      
+  --note: #1a1e24; /*#0d131c*/
+  --text: #bccad8; /*#dcddde*/
+  --headers: #c14343;
+  --soft-text: #aab3ca;/*#d04e4e*/
+  --code-text: #fa4545;
+  --footnote: #63778f;/*#6e7e89*/
 
-    --th: var(--dark-accent);
-    --td: #06080c60;
-    
-    --hvr: var(--text-highlight-bg);
-    --hvr2: var(--text-selection);
-    
-    --tag: var(--th);
-    --table: #283846;
-    --hr: #2a3b55;
-    --i-at: #bf5e5e;
+  --code-bg: #232831;
+  --embed-bg: var(--dark-sidebar);/*#111417*/
+  --aside-bg: #11151d;
+
+  --th: var(--dark-accent);
+  --th-text: var(--text-dl);
+  --td: #06080c60;
+  
+  --hvr: var(--text-highlight-bg);
+  --hvr2: var(--text-selection);
+  
+  --tag: var(--dark-accent);
+  --table: #2a2e35;
+  --hr: #2f3b4d; /*#2a3b55, #3c5274*/
+  --i-at: #bf5e5e;
+  --bttn: var(--dark-accent);
+  --progress: var(--accent);
+  --progress-bg: var(--bg);
 }

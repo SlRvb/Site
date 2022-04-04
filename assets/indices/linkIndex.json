@@ -1,0 +1,762 @@
+{
+  "index": {
+    "links": {
+      "/": [
+        {
+          "source": "/",
+          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
+          "text": "CJK + Latex Support"
+        },
+        {
+          "source": "/",
+          "target": "/notes/setup",
+          "text": "Setup your own digital garden using Quartz"
+        },
+        {
+          "source": "/",
+          "target": "/notes/showcase",
+          "text": "community digital gardens"
+        },
+        {
+          "source": "/",
+          "target": "/notes/philosophy",
+          "text": "why I made Quartz"
+        },
+        {
+          "source": "/",
+          "target": "/notes",
+          "text": "All Notes"
+        },
+        {
+          "source": "/",
+          "target": "/tags/setup",
+          "text": "Setup-related Notes"
+        },
+        {
+          "source": "/",
+          "target": "/notes/troubleshooting",
+          "text": "Troubleshooting and FAQ"
+        }
+      ],
+      "/2_DnD/Characters/DnD_Angela-Navarro": [
+        {
+          "source": "/2_DnD/Characters/DnD_Angela-Navarro",
+          "target": "/SlRvb",
+          "text": "SlRvb"
+        }
+      ],
+      "/2_DnD/DnD_DnD-Wiki": [
+        {
+          "source": "/2_DnD/DnD_DnD-Wiki",
+          "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+          "text": "Dungeons \u0026 Dragons"
+        },
+        {
+          "source": "/2_DnD/DnD_DnD-Wiki",
+          "target": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "text": "Spells"
+        },
+        {
+          "source": "/2_DnD/DnD_DnD-Wiki",
+          "target": "/2_DnD/Characters/DnD_Angela-Navarro",
+          "text": "Angela Navarro"
+        }
+      ],
+      "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells": [
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+          "text": "Dungeons And Dragons"
+        },
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "target": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "text": "Burning Hands"
+        }
+      ],
+      "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands": [
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "target": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "text": "Spells"
+        },
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+          "text": "D\u0026D"
+        },
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "target": "/2_DnD/Dungeons_And_Dragons/Spells/",
+          "text": "Evocation"
+        }
+      ],
+      "/3_Nebula/ITS-Theme/ITST_ITS-Theme": [
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Image-Positions",
+          "text": "Image Positions"
+        },
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Embed-Adjustments",
+          "text": "Embed Adjustments"
+        },
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Aside",
+          "text": "Aside"
+        },
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/",
+          "text": "Folder Styles"
+        },
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Kanban",
+          "text": "Kanban"
+        }
+      ],
+      "/3_Nebula/Neb_Nebula": [
+        {
+          "source": "/3_Nebula/Neb_Nebula",
+          "target": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "text": "ITS Theme"
+        },
+        {
+          "source": "/3_Nebula/Neb_Nebula",
+          "target": "/3_Nebula/Setup_Bullet-Journal",
+          "text": "Bullet Journal Setup"
+        },
+        {
+          "source": "/3_Nebula/Neb_Nebula",
+          "target": "/3_Nebula/Setup_MediaDB",
+          "text": "MediaDB"
+        }
+      ],
+      "/3_Nebula/Setup_Bullet-Journal": [
+        {
+          "source": "/3_Nebula/Setup_Bullet-Journal",
+          "target": "/3_Nebula/Setup_Bullet-Journal.md",
+          "text": "Journal Sections"
+        },
+        {
+          "source": "/3_Nebula/Setup_Bullet-Journal",
+          "target": "/",
+          "text": "Journal Sections"
+        },
+        {
+          "source": "/3_Nebula/Setup_Bullet-Journal",
+          "target": "/",
+          "text": "0 BuJo MOCs"
+        }
+      ],
+      "/3_Nebula/Setup_MediaDB": [
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Styling Section"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Current Page"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium Pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Rating Tags"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "LGBT Ratings"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Category Tags"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Status/Progress Tags"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Styling"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium Pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "add Media pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Media Inbox"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Tag"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Movie"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "folder"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Queue Page"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium Pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Tags or Links"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Category Tags"
+        }
+      ]
+    },
+    "backlinks": {
+      "/": [
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/",
+          "text": "Folder Styles"
+        },
+        {
+          "source": "/3_Nebula/Setup_Bullet-Journal",
+          "target": "/",
+          "text": "Journal Sections"
+        },
+        {
+          "source": "/3_Nebula/Setup_Bullet-Journal",
+          "target": "/",
+          "text": "0 BuJo MOCs"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Styling Section"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Current Page"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium Pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Rating Tags"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "LGBT Ratings"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Category Tags"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Status/Progress Tags"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Styling"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium Pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "add Media pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Media Inbox"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Tag"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Movie"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "folder"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Queue Page"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Medium Pages"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Tags or Links"
+        },
+        {
+          "source": "/3_Nebula/Setup_MediaDB",
+          "target": "/",
+          "text": "Category Tags"
+        }
+      ],
+      "/2_DnD/Characters/DnD_Angela-Navarro": [
+        {
+          "source": "/2_DnD/DnD_DnD-Wiki",
+          "target": "/2_DnD/Characters/DnD_Angela-Navarro",
+          "text": "Angela Navarro"
+        }
+      ],
+      "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells": [
+        {
+          "source": "/2_DnD/DnD_DnD-Wiki",
+          "target": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "text": "Spells"
+        },
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "target": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "text": "Spells"
+        }
+      ],
+      "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons": [
+        {
+          "source": "/2_DnD/DnD_DnD-Wiki",
+          "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+          "text": "Dungeons \u0026 Dragons"
+        },
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+          "text": "Dungeons And Dragons"
+        },
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+          "text": "D\u0026D"
+        }
+      ],
+      "/2_DnD/Dungeons_And_Dragons/Spells/": [
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "target": "/2_DnD/Dungeons_And_Dragons/Spells/",
+          "text": "Evocation"
+        }
+      ],
+      "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands": [
+        {
+          "source": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+          "target": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+          "text": "Burning Hands"
+        }
+      ],
+      "/3_Nebula/ITS-Theme/ITST_Aside": [
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Aside",
+          "text": "Aside"
+        }
+      ],
+      "/3_Nebula/ITS-Theme/ITST_Embed-Adjustments": [
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Embed-Adjustments",
+          "text": "Embed Adjustments"
+        }
+      ],
+      "/3_Nebula/ITS-Theme/ITST_ITS-Theme": [
+        {
+          "source": "/3_Nebula/Neb_Nebula",
+          "target": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "text": "ITS Theme"
+        }
+      ],
+      "/3_Nebula/ITS-Theme/ITST_Image-Positions": [
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Image-Positions",
+          "text": "Image Positions"
+        }
+      ],
+      "/3_Nebula/ITS-Theme/ITST_Kanban": [
+        {
+          "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+          "target": "/3_Nebula/ITS-Theme/ITST_Kanban",
+          "text": "Kanban"
+        }
+      ],
+      "/3_Nebula/Setup_Bullet-Journal": [
+        {
+          "source": "/3_Nebula/Neb_Nebula",
+          "target": "/3_Nebula/Setup_Bullet-Journal",
+          "text": "Bullet Journal Setup"
+        }
+      ],
+      "/3_Nebula/Setup_Bullet-Journal.md": [
+        {
+          "source": "/3_Nebula/Setup_Bullet-Journal",
+          "target": "/3_Nebula/Setup_Bullet-Journal.md",
+          "text": "Journal Sections"
+        }
+      ],
+      "/3_Nebula/Setup_MediaDB": [
+        {
+          "source": "/3_Nebula/Neb_Nebula",
+          "target": "/3_Nebula/Setup_MediaDB",
+          "text": "MediaDB"
+        }
+      ],
+      "/SlRvb": [
+        {
+          "source": "/2_DnD/Characters/DnD_Angela-Navarro",
+          "target": "/SlRvb",
+          "text": "SlRvb"
+        }
+      ],
+      "/notes": [
+        {
+          "source": "/",
+          "target": "/notes",
+          "text": "All Notes"
+        }
+      ],
+      "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": [
+        {
+          "source": "/",
+          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
+          "text": "CJK + Latex Support"
+        }
+      ],
+      "/notes/philosophy": [
+        {
+          "source": "/",
+          "target": "/notes/philosophy",
+          "text": "why I made Quartz"
+        }
+      ],
+      "/notes/setup": [
+        {
+          "source": "/",
+          "target": "/notes/setup",
+          "text": "Setup your own digital garden using Quartz"
+        }
+      ],
+      "/notes/showcase": [
+        {
+          "source": "/",
+          "target": "/notes/showcase",
+          "text": "community digital gardens"
+        }
+      ],
+      "/notes/troubleshooting": [
+        {
+          "source": "/",
+          "target": "/notes/troubleshooting",
+          "text": "Troubleshooting and FAQ"
+        }
+      ],
+      "/tags/setup": [
+        {
+          "source": "/",
+          "target": "/tags/setup",
+          "text": "Setup-related Notes"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "/2_DnD/Characters/DnD_Angela-Navarro",
+      "target": "/SlRvb",
+      "text": "SlRvb"
+    },
+    {
+      "source": "/2_DnD/DnD_DnD-Wiki",
+      "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+      "text": "Dungeons \u0026 Dragons"
+    },
+    {
+      "source": "/2_DnD/DnD_DnD-Wiki",
+      "target": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+      "text": "Spells"
+    },
+    {
+      "source": "/2_DnD/DnD_DnD-Wiki",
+      "target": "/2_DnD/Characters/DnD_Angela-Navarro",
+      "text": "Angela Navarro"
+    },
+    {
+      "source": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+      "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+      "text": "Dungeons And Dragons"
+    },
+    {
+      "source": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+      "target": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+      "text": "Burning Hands"
+    },
+    {
+      "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+      "target": "/2_DnD/Dungeons_And_Dragons/0_DnD/DnDU_Spells",
+      "text": "Spells"
+    },
+    {
+      "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+      "target": "/2_DnD/Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons",
+      "text": "D\u0026D"
+    },
+    {
+      "source": "/2_DnD/Dungeons_And_Dragons/Spells/DnDU_Burning-Hands",
+      "target": "/2_DnD/Dungeons_And_Dragons/Spells/",
+      "text": "Evocation"
+    },
+    {
+      "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+      "target": "/3_Nebula/ITS-Theme/ITST_Image-Positions",
+      "text": "Image Positions"
+    },
+    {
+      "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+      "target": "/3_Nebula/ITS-Theme/ITST_Embed-Adjustments",
+      "text": "Embed Adjustments"
+    },
+    {
+      "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+      "target": "/3_Nebula/ITS-Theme/ITST_Aside",
+      "text": "Aside"
+    },
+    {
+      "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+      "target": "/",
+      "text": "Folder Styles"
+    },
+    {
+      "source": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+      "target": "/3_Nebula/ITS-Theme/ITST_Kanban",
+      "text": "Kanban"
+    },
+    {
+      "source": "/3_Nebula/Neb_Nebula",
+      "target": "/3_Nebula/ITS-Theme/ITST_ITS-Theme",
+      "text": "ITS Theme"
+    },
+    {
+      "source": "/3_Nebula/Neb_Nebula",
+      "target": "/3_Nebula/Setup_Bullet-Journal",
+      "text": "Bullet Journal Setup"
+    },
+    {
+      "source": "/3_Nebula/Neb_Nebula",
+      "target": "/3_Nebula/Setup_MediaDB",
+      "text": "MediaDB"
+    },
+    {
+      "source": "/3_Nebula/Setup_Bullet-Journal",
+      "target": "/3_Nebula/Setup_Bullet-Journal.md",
+      "text": "Journal Sections"
+    },
+    {
+      "source": "/3_Nebula/Setup_Bullet-Journal",
+      "target": "/",
+      "text": "Journal Sections"
+    },
+    {
+      "source": "/3_Nebula/Setup_Bullet-Journal",
+      "target": "/",
+      "text": "0 BuJo MOCs"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Styling Section"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Medium"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Current Page"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Medium Pages"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Rating Tags"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "LGBT Ratings"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Category Tags"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Status/Progress Tags"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Styling"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Medium Pages"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "add Media pages"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Media Inbox"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Tag"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Movie"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "folder"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Queue Page"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Medium Pages"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Tags or Links"
+    },
+    {
+      "source": "/3_Nebula/Setup_MediaDB",
+      "target": "/",
+      "text": "Category Tags"
+    },
+    {
+      "source": "/",
+      "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
+      "text": "CJK + Latex Support"
+    },
+    {
+      "source": "/",
+      "target": "/notes/setup",
+      "text": "Setup your own digital garden using Quartz"
+    },
+    {
+      "source": "/",
+      "target": "/notes/showcase",
+      "text": "community digital gardens"
+    },
+    {
+      "source": "/",
+      "target": "/notes/philosophy",
+      "text": "why I made Quartz"
+    },
+    {
+      "source": "/",
+      "target": "/notes",
+      "text": "All Notes"
+    },
+    {
+      "source": "/",
+      "target": "/tags/setup",
+      "text": "Setup-related Notes"
+    },
+    {
+      "source": "/",
+      "target": "/notes/troubleshooting",
+      "text": "Troubleshooting and FAQ"
+    }
+  ]
+}
