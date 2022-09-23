@@ -1,99 +1,66 @@
-/* Background */ .chroma { color: #f8f8f2; background-color: #282a36; overflow: hidden }
-/* Other */ .chroma .x {  }
-/* Error */ .chroma .err {  }
-/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
-/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
-/* LineHighlight */ .chroma .hl { display: block; width: 100%;background-color: #ffffcc }
-/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
-/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
-/* Keyword */ .chroma .k { color: var(--code-pink); }
-/* KeywordConstant */ .chroma .kc { color: var(--code-pink); }
-/* KeywordDeclaration */ .chroma .kd { color: var(--code-blue-lite);; font-style: italic }
-/* KeywordNamespace */ .chroma .kn { color: var(--code-pink); }
-/* KeywordPseudo */ .chroma .kp { color: var(--code-pink); }
-/* KeywordReserved */ .chroma .kr { color: var(--code-pink); }
-/* KeywordType */ .chroma .kt { color: var(--code-blue-lite); }
-/* Name */ .chroma .n {  }
-/* NameAttribute */ .chroma .na { color: var(--code-green); }
-/* NameBuiltin */ .chroma .nb { color: var(--code-blue-lite);; font-style: italic }
-/* NameBuiltinPseudo */ .chroma .bp {  }
-/* NameClass */ .chroma .nc { color: var(--code-green); }
-/* NameConstant */ .chroma .no {  }
-/* NameDecorator */ .chroma .nd {  }
-/* NameEntity */ .chroma .ni {  }
-/* NameException */ .chroma .ne {  }
-/* NameFunction */ .chroma .nf { color: var(--code-green); }
-/* NameFunctionMagic */ .chroma .fm {  }
-/* NameLabel */ .chroma .nl { color: var(--code-blue-lite);; font-style: italic }
-/* NameNamespace */ .chroma .nn {  }
-/* NameOther */ .chroma .nx {  }
-/* NameProperty */ .chroma .py {  }
-/* NameTag */ .chroma .nt { color: var(--code-pink); }
-/* NameVariable */ .chroma .nv { color: var(--code-blue-lite);; font-style: italic }
-/* NameVariableClass */ .chroma .vc { color: var(--code-blue-lite);; font-style: italic }
-/* NameVariableGlobal */ .chroma .vg { color: var(--code-blue-lite);; font-style: italic }
-/* NameVariableInstance */ .chroma .vi { color: var(--code-blue-lite);; font-style: italic }
-/* NameVariableMagic */ .chroma .vm {  }
-/* Literal */ .chroma .l {  }
-/* LiteralDate */ .chroma .ld {  }
-/* LiteralString */ .chroma .s { color: var(--code-yellow); }
-/* LiteralStringAffix */ .chroma .sa { color: var(--code-yellow); }
-/* LiteralStringBacktick */ .chroma .sb { color: var(--code-yellow); }
-/* LiteralStringChar */ .chroma .sc { color: var(--code-yellow); }
-/* LiteralStringDelimiter */ .chroma .dl { color: var(--code-yellow); }
-/* LiteralStringDoc */ .chroma .sd { color: var(--code-yellow); }
-/* LiteralStringDouble */ .chroma .s2 { color: var(--code-yellow); }
-/* LiteralStringEscape */ .chroma .se { color: var(--code-yellow); }
-/* LiteralStringHeredoc */ .chroma .sh { color: var(--code-yellow); }
-/* LiteralStringInterpol */ .chroma .si { color: var(--code-yellow); }
-/* LiteralStringOther */ .chroma .sx { color: var(--code-yellow); }
-/* LiteralStringRegex */ .chroma .sr { color: var(--code-yellow); }
-/* LiteralStringSingle */ .chroma .s1 { color: var(--code-yellow); }
-/* LiteralStringSymbol */ .chroma .ss { color: var(--code-yellow); }
-/* LiteralNumber */ .chroma .m { color: var(--code-purple); }
-/* LiteralNumberBin */ .chroma .mb { color: var(--code-purple); }
-/* LiteralNumberFloat */ .chroma .mf { color: var(--code-purple); }
-/* LiteralNumberHex */ .chroma .mh { color: var(--code-purple); }
-/* LiteralNumberInteger */ .chroma .mi { color: var(--code-purple); }
-/* LiteralNumberIntegerLong */ .chroma .il { color: var(--code-purple); }
-/* LiteralNumberOct */ .chroma .mo { color: var(--code-purple); }
-/* Operator */ .chroma .o { color: var(--code-pink); }
-/* OperatorWord */ .chroma .ow { color: var(--code-pink); }
-/* Punctuation */ .chroma .p {  }
-/* Comment */ .chroma .c { color: var(--code-blue); }
-/* CommentHashbang */ .chroma .ch { color: var(--code-blue); }
-/* CommentMultiline */ .chroma .cm { color: var(--code-blue); }
-/* CommentSingle */ .chroma .c1 { color: var(--code-blue); }
-/* CommentSpecial */ .chroma .cs { color: var(--code-blue); }
-/* CommentPreproc */ .chroma .cp { color: var(--code-pink); }
-/* CommentPreprocFile */ .chroma .cpf { color: var(--code-pink); }
-/* Generic */ .chroma .g {  }
-/* GenericDeleted */ .chroma .gd { color: #8b080b }
-/* GenericEmph */ .chroma .ge { text-decoration: underline }
-/* GenericError */ .chroma .gr {  }
-/* GenericHeading */ .chroma .gh { font-weight: bold }
-/* GenericInserted */ .chroma .gi { font-weight: bold }
-/* GenericOutput */ .chroma .go { color: #44475a }
-/* GenericPrompt */ .chroma .gp {  }
-/* GenericStrong */ .chroma .gs {  }
-/* GenericSubheading */ .chroma .gu { font-weight: bold }
-/* GenericTraceback */ .chroma .gt {  }
-/* GenericUnderline */ .chroma .gl { text-decoration: underline }
-/* TextWhitespace */ .chroma .w {  }
+// Overrides
+/* Background */
+.chroma {
+  overflow: hidden !important;
+  background-color: var(--lightgray) !important;
+}
+
+/* LineTable */
+.chroma .lntable {
+  width: auto !important;
+  overflow: auto !important;
+  display: block !important;
+}
+
+/* LineHighlight */
+.chroma .hl {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* LineNumbersTable */
+.chroma .lnt {
+  margin-right: 0.0em !important;
+  padding: 0 0.0em 0 0.0em !important;
+}
+
+/* LineNumbers */
+.chroma .ln {
+  margin-right: 0.0em !important;
+  padding: 0 0.0em 0 0.0em !important;
+}
+
+/* GenericDeleted */
+.chroma .gd {
+  color: #8b080b !important;
+}
+
+/* GenericInserted */
+.chroma .gi {
+  font-weight: bold !important;
+}
 
 .lntd:first-of-type > .chroma {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 
 .chroma code {
-  font-family: 'Fira Code' !important;
-  font-size: 0.85em;
-  line-height: 1em;
-  background: none;
-  padding: 0;
+  font-family: var(--font-mono) !important;
+  font-size: 0.85em !important;
+  line-height: 2em !important;
+  background: none !important;
+  padding: 0 !important;
 }
 
 .chroma {
-  border-radius: 3px;
-  margin: 0;
+  border-radius: 3px !important;
+  margin: 0 !important;
+}
+
+pre.chroma {
+  -moz-tab-size:4;-o-tab-size:4;tab-size:4;
+}
+
+.katex {
+  font-size: 1.1em !important;
 }
