@@ -113,13 +113,6 @@ h1, h2, h3, h4, h5, h6, ol, ul, thead {
     color: var(--secondary);
   }
 }
-  margin: 2rem 0 0;
-  padding: 2rem auto 1rem;
-
-  &:hover > .hanchor {
-    color: var(--secondary);
-  }
-}
 ol, ul, thead {
   font-family: var(--txt-fnt);
   color: var(--text);
@@ -712,22 +705,15 @@ header {
       stroke: var(--tertiary);
     }
 
-    .search-path {
-      stroke: var(--gray);
-  & > .spacer {
-    flex: auto;
-  }
-  & > svg {
-    cursor: pointer;
-    width: 18px;
-    min-width: 18px;
-    margin: 0 1em;
-    
     & .search-path {
       stroke: var(--text);
       stroke-width: 2px;
       transition: stroke .5s ease;
     }
+    & > .spacer {
+      flex: auto;
+    }
+    
   }
 }
 
@@ -814,6 +800,7 @@ header {
 
         & > h3, & > p {
           margin: 0;
+        }
         & .search-highlight {
           background: var(--embed-bg);
           border-radius: 0;
@@ -843,6 +830,7 @@ header {
     }
 
     &::before { display: none; }
+  }
 }
 
 .section-li {
