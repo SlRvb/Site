@@ -69,38 +69,55 @@ title: "Vola"
 | +1 | Performance | CHA |
 | +1 | Persuasion | CHA |
 | +2 | Religion | INT |
-| +1 | Sleight of Hand | DEX |
+| `+1` | Sleight of Hand | DEX |
 | `+3` | Stealth | DEX |
 | -1 | Survival | WIS |
 
 # Traits
 
 ###### Class Features
-> [!skills]+ [Primal Path: Path Of The Beast](http://dnd5e.wikidot.com/barbarian:beast)
-> - Origin of the Beast: A fey spirit gifted you with the ability to adopt different bestial aspects.
-> - **Backstory:** Crime gone weird, stolen artifact freed a fey that granted Vola these powers as a reward
+- [Primal Path: Path Of The Beast](http://dnd5e.wikidot.com/barbarian:beast)
+	- **Origin of the Beast:** A fey spirit gifted you with the ability to adopt different bestial aspects.
+	- **Backstory:** Robbery gone weird: stolen artifact freed a fey that granted Vola these powers as a reward
 
 - Rage
 - Reckless Attack
 - Danger Sense
 - Frenzy
 
-###### Racial Traits
+[Barbarian](http://dnd5e.wikidot.com/barbarian)
 
+###### Racial Traits
 - Darkvision: 60ft
 - Menacing: Proficiency in Intimidation skill
 - Relentess Endurance
 - Savage Attacks
 
-###### Feats
-- Grappler
+[Half-Orc](http://dnd5e.wikidot.com/half-orc)
 
+###### Feats
+- [Grappler](http://dnd5e.wikidot.com/feat:grappler)
+- 🤷‍♀️ [Dungeon Delver](http://dnd5e.wikidot.com/feat:dungeon-delver) / [Lucky](http://dnd5e.wikidot.com/feat:lucky)
 
 ## Proficiencies
+- **Racial**
+	- Athletics
+	- Perception
+	- Intimidation
 
-- Athletics
-- Perception
-- Intimidation skill
+- **Background**
+	- Deception
+	- Stealth
+
+- **Tools**
+	- Playing Cards set
+	- Thieves' Tools
+	- Herbalism Kit
+
+- **Armor / Weapons**
+	- Light/Medium Armor
+	- Shields
+	- Martial & Simple weapons
 
 ## Languages
 - Common
@@ -112,6 +129,28 @@ title: "Vola"
 |  |  |  | 300 |  |
 
 - A pouch containing 15gp
-
 - A crowbar
 - A set of dark common clothes including a hood
+
+---
+- Great Axe
+- Two handaxes
+- An explorer's pack
+- Four javelins
+
+---
+- Total: 202 gp
+	- [ ] Ballbearings 💰 1gp
+	- [ ] Caltrops 💰 1gp
+	- [ ] Potion 💰50 gp
+	- [ ] Charming Earring 💰 150gp
+
+# Homebrew Additions
+
+- **Being Smart Helps Additions**
+	- **Skill:** Slight of Hand
+	- **Tool:** Herbalism Kit
+- **Heirloom:** 🤔
+- **Quirk:** 
+	- Dungeon Delver
+	- Lucky
