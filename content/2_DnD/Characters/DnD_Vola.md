@@ -39,7 +39,6 @@ title: "Vola"
 | Senses | \# |
 | --- | --- |
 | **Passive Perception** (WIS) | +2 |
-| **Passive Investigation** (Int) | 12 |
 |  |  |
 | **Darkvision** | 60ft |
 
@@ -76,6 +75,7 @@ title: "Vola"
 
 # Traits
 
+###### Class Features
 > [!skills]+ [Primal Path: Path Of The Beast](http://dnd5e.wikidot.com/barbarian:beast)
 > - Origin of the Beast: A fey spirit gifted you with the ability to adopt different bestial aspects.
 > - **Backstory:** Crime gone weird, stolen artifact freed a fey that granted Vola these powers as a reward
@@ -84,3 +84,34 @@ title: "Vola"
 - Reckless Attack
 - Danger Sense
 - Frenzy
+
+###### Racial Traits
+
+- Darkvision: 60ft
+- Menacing: Proficiency in Intimidation skill
+- Relentess Endurance
+- Savage Attacks
+
+###### Feats
+- Grappler
+
+
+## Proficiencies
+
+- Athletics
+- Perception
+- Intimidation skill
+
+## Languages
+- Common
+- Orc
+
+# Equipment
+| CP | SP | EP | GP | PP |
+|:---:|:---:|:---:|:---:|:---:|
+|  |  |  | 300 |  |
+
+- A pouch containing 15gp
+
+- A crowbar
+- A set of dark common clothes including a hood
