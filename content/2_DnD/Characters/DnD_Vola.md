@@ -112,7 +112,7 @@ title: "Vola"
 - **Tools**
 	- Playing Cards set
 	- Thieves' Tools
-	- Herbalism Kit
+	- Disguise Kit
 
 - **Armor / Weapons**
 	- Light/Medium Armor
