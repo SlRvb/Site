@@ -148,8 +148,8 @@ title: "Vola"
 # Homebrew Additions
 
 - **Being Smart Helps Additions**
-	- **Skill:** Slight of Hand
-	- **Tool:** Herbalism Kit
+	- **Skill:** Sleight of Hand
+	- **Tool:** Disguise Kit
 - **Heirloom:** 🤔
 - **Quirk:** 
 	- Dungeon Delver
