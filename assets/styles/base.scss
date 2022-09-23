@@ -121,6 +121,9 @@ a {
   
   & h3::after { display: none; }  
 }
+summary { 
+  color: var(--text);
+}
 
 
 #TableOfContents > ul,
