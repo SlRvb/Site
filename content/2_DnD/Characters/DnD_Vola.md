@@ -97,7 +97,6 @@ title: "Vola"
 
 ###### Feats
 - [Grappler](http://dnd5e.wikidot.com/feat:grappler)
-- 🤷‍♀️ [Dungeon Delver](http://dnd5e.wikidot.com/feat:dungeon-delver) / [Lucky](http://dnd5e.wikidot.com/feat:lucky)
 
 ## Proficiencies
 - **Racial**
@@ -150,7 +149,5 @@ title: "Vola"
 - **Being Smart Helps Additions**
 	- **Skill:** Sleight of Hand
 	- **Tool:** Disguise Kit
-- **Heirloom:** 🤔
-- **Quirk:** 
-	- Dungeon Delver
-	- Lucky
+- **Heirloom:** Dagger - Blade that overthrew a tyrant
+- **Quirk:** Grappler
