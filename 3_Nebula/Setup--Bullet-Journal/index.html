@@ -1,0 +1,943 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="Write up of my journaling setup."><title>Bullet Journal</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://SlRvb.github.io/Site/icon.png><link href=https://SlRvb.github.io/Site/styles.708c2658f93e3a9d323a1f9fded8f4b2.min.css rel=stylesheet><link href=https://SlRvb.github.io/Site/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://SlRvb.github.io/Site/js/darkmode.6618516292998838976d2979227dd3f7.min.js></script>
+<script src=https://SlRvb.github.io/Site/js/util.9825137f5e7825e8553c68ce39ac9e44.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js integrity=sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A crossorigin=anonymous></script>
+<script src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script src=https://SlRvb.github.io/Site/js/popover.9b72b70bd35617d0635e9d15463662b2.min.js></script>
+<script src=https://SlRvb.github.io/Site/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
+<script src=https://SlRvb.github.io/Site/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
+<script src=https://SlRvb.github.io/Site/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const BASE_URL="https://SlRvb.github.io/Site",fetchData=Promise.all([fetch("https://SlRvb.github.io/Site/indices/linkIndex.5b596e9e97ed21f714e1198544221436.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://SlRvb.github.io/Site/indices/contentIndex.2dfa420a811f8101b7a00b63c47aea21.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://SlRvb.github.io/Site",!0,!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!1;drawGraph("https://SlRvb.github.io/Site",t,[{"/1_ITS":"#c14343"},{"/2_DnD":"#3eb281"},{"/3_Nebula":"#4388cc"},{"/3_Nebula":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2})}},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/SlRvb.github.io\/Site\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script></head><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://SlRvb.github.io/Site/js/full-text-search.24827f874defbbc6d529926cbfcfb493.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://SlRvb.github.io/Site>SlRvb</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><h1>Bullet Journal</h1><p class=meta>Last updated
+Nov 19, 2022
+<a href=https://github.com/SlRvb/Site/3_Nebula/Setup--Bullet-Journal.md rel=noopener>Edit Source</a></p><ul class=tags><li><a href=https://SlRvb.github.io/Site/tags/Setup/>Setup</a></li></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#resources>Resources</a></li><li><a href=#folder-setup>Folder Setup</a></li><li><a href=#0-bujo-mocs>0 BuJo: MOCs</a><ol><li><a href=#journal-homepage>Journal Homepage</a></li><li><a href=#timeline>Timeline</a></li><li><a href=#dream-journal>Dream Journal</a></li><li><a href=#workout-log>Workout Log</a></li><li><a href=#conditions-log>Conditions Log</a></li><li><a href=#code-diary>Code Diary</a></li><li><a href=#resonance-calendar>Resonance Calendar</a></li><li><a href=#update-log>Update Log</a></li></ol></li><li><a href=#journal-sections>Journal Sections</a><ol><li><a href=#1-journal>1 Journal</a><ol><li><a href=#daily-journal-entry>Daily Journal Entry</a></li><li><a href=#yearly-journal-entry>Yearly Journal Entry</a></li></ol></li><li><a href=#2-dream-journal>2 Dream Journal</a></li><li><a href=#3-workout-log>3 Workout Log</a></li><li><a href=#4-conditions-log>4 Conditions Log</a></li><li><a href=#5-code-diary>5 Code Diary</a></li><li><a href=#6-resonance-calendar>6 Resonance Calendar</a></li><li><a href=#7-update-log>7 Update Log</a></li></ol></li><li><a href=#quickadd>QuickAdd</a></li><li><a href=#link-styling>Link Styling</a></li></ol></nav></details></aside><blockquote><p>How I personally go about journaling the things that happen in my life.</p></blockquote><p><a rel=noopener class="internal-link broken" data-src=/0_Technical/1_Images/Setup-Journal.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal.png width=sban alt=|sban></a></p><a href=#resources><h1 id=resources><span class=hanchor arialabel=Anchor># </span>Resources</h1></a><p><strong>CSS:</strong></p><ul><li><a href=https://forum.obsidian.md/t/theme-its-dark-light-theme rel=noopener>ITS Theme</a> (Also available on the Community Themes)</li><li><a href=https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Theme---All-Alternate-Themes.css rel=noopener>All Alternate Themes CSS Snippet</a> (SlRvb Gray toggled on using Style Settings)</li><li><a href=https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S---Folder-Styles.css rel=noopener>Folder Styles CSS Snippet</a></li></ul><p><strong>Plugins:</strong></p><ul><li>Dataview</li><li>Templater</li><li>QuickAdd</li></ul><a href=#folder-setup><h1 id=folder-setup><span class=hanchor arialabel=Anchor># </span>Folder Setup</h1></a><p>I had a couple areas of my life that I wanted to track which now are the folders you see in the screenshot above.</p><p>The reason the folders are separated is just <em>for me</em> to easily search through the folders to find which kind of journal entry I&rsquo;m looking for on what day.</p><p>I&rsquo;m using numbers at the beginning of the folder names just to sort them in the order I want to see the folders in, they don&rsquo;t really mean anything beyond that.</p><table><thead><tr><th>Folder</th><th>Description of Log</th></tr></thead><tbody><tr><td><code>0 BuJo</code></td><td>MOCs for all the journal entry types.</td></tr><tr><td><code>1 Journal</code></td><td>Events on that day.</td></tr><tr><td><code>2 Dream Journal</code></td><td>Events in my dreams.</td></tr><tr><td><code>3 Workout Log</code></td><td>Exercise/workout routines.</td></tr><tr><td><code>4 Conditions Log</code></td><td>Symptoms of my body that day.</td></tr><tr><td><code>5 Code Diary</code></td><td>Coding techniques/insights.</td></tr><tr><td><code>6 Resonance Calendar</code></td><td>Media that challenges my preconceptions.</td></tr><tr><td><code>7 Update Log</code></td><td>Updates for projects I work on.</td></tr></tbody></table><a href=#0-bujo-mocs><h1 id=0-bujo-mocs><span class=hanchor arialabel=Anchor># </span>0 BuJo: MOCs</h1></a><p>Most of the MOC pages heavily utilize Dataview to list out the entries dynamically so that I don&rsquo;t have to spend time linking things myself.</p><blockquote><p>The fields these dataview tables use are in the <strong><a href=/Site/3_Nebula/Setup--Bullet-Journal/ rel=noopener class=internal-link data-src=/Site/3_Nebula/Setup--Bullet-Journal/>Journal Sections</a></strong>.</p></blockquote><a href=#journal-homepage><h2 id=journal-homepage><span class=hanchor arialabel=Anchor># </span>Journal Homepage</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal, MOC/HQ
+</span></span><span class=line><span class=cl>cssclass: hcl, readable
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>JD: 10
+</span></span><span class=line><span class=cl>Order: 0
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Description: &#34;Record of the times.&#34;
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Journal
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>&gt; </span><span class=ge>` dv= this.Description`
+</span></span></span><span class=line><span class=cl><span class=ge></span>
+</span></span><span class=line><span class=cl><span class=gu>###### Currently
+</span></span></span><span class=line><span class=cl><span class=gu></span><span class=s>```dataview
+</span></span></span><span class=line><span class=cl><span class=s></span>TABLE WITHOUT ID link(file.link, &#34; &#34;) + &#34;&lt;strong&gt;&#34; + Title + &#34; &#34; + default(Creator, &#34;&#34;) + &#34;&lt;/strong&gt;&lt;br&gt;&#34; + Date AS Entries
+</span></span><span class=line><span class=cl>FROM &#34;10 BuJo&#34; 
+</span></span><span class=line><span class=cl>WHERE !contains(file.path, &#34;10 BuJo/0 BuJo&#34;) &amp; contains(file.name, &#34;20&#34;)
+</span></span><span class=line><span class=cl>SORT file.name desc
+</span></span><span class=line><span class=cl>LIMIT 7
+</span></span><span class=line><span class=cl><span class=s>```</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><img src="/Site/10 BuJo/1 Journal/2021/2021" width=no-title>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gu>###### Areas
+</span></span></span><span class=line><span class=cl><span class=gu></span><a class="internal-link broken">Timeline</a>
+</span></span><span class=line><span class=cl>[[Dream Journal]]
+</span></span><span class=line><span class=cl><a class="internal-link broken">Workout</a>
+</span></span><span class=line><span class=cl><a class="internal-link broken">Code Diary</a>
+</span></span><span class=line><span class=cl><a class="internal-link broken">Resonance Calendar</a>
+</span></span><span class=line><span class=cl><a class="internal-link broken">Conditions Log</a>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=/0_Technical/1_Images/Setup-Journal-Homepage.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal-Homepage.png width=sban alt=|sban></a></p><a href=#timeline><h2 id=timeline><span class=hanchor arialabel=Anchor># </span>Timeline</h2></a><blockquote><p>Timeline page was inspired by this
+<a href=https://publish.obsidian.md/sim/Timeline rel=noopener><strong>Timeline - § Sim Salis - Obsidian Publish</strong></a>, but it&rsquo;s now defunct a link unfortunately.</p></blockquote><p>I just use it to list out what notable events happened in each year and if I <em>have</em> a year page, I&rsquo;ll link to it. I think it&rsquo;s just a neat way to see your life at a glance and all the things you&rsquo;ve been able to do.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>Year | Notable Events |
+</span></span><span class=line><span class=cl>-----|----------------|
+</span></span><span class=line><span class=cl><span class=sb>`YYYY`</span> | Comma separated list of notable events
+</span></span><span class=line><span class=cl><span class=sb>`[[2021]]`</span> | Created ITS Theme, Obsidian Community Showcase
+</span></span></code></pre></td></tr></table></div></div><a href=#dream-journal><h2 id=dream-journal><span class=hanchor arialabel=Anchor># </span>Dream Journal</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=line><span class=cl><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=s2>&#34;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=s2>&#34; &#34;</span><span class=p>)</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>join</span><span class=p>(</span><span class=k>default</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>))</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Dream</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=nb>Date</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/2 Dream Journal&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span></code></pre></td></tr></table></div></div><a href=#workout-log><h2 id=workout-log><span class=hanchor arialabel=Anchor># </span>Workout Log</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=line><span class=cl><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=s2>&#34;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=s2>&#34; &#34;</span><span class=p>)</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>join</span><span class=p>(</span><span class=k>default</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>))</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Entry</span><span class=p>,</span><span class=w> </span><span class=s2>&#34;&lt;a class=tag&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Area</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;/a&gt;&lt;br&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Type______</span><span class=p>,</span><span class=w> </span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Weight</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&lt;a class=tag&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Intensity</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;/a&gt;&#34;</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Challenge__</span><span class=p>,</span><span class=w> </span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Notes</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Notes</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/3 Workout Log&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>name</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Workout-DV.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Workout-DV.png width=sban alt=|sban></a></p><a href=#conditions-log><h2 id=conditions-log><span class=hanchor arialabel=Anchor># </span>Conditions Log</h2></a><p>There was a lot of information on these pages, so I opted to get very CSS heavy on the dataview query so that I could still glance and get the information I needed.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=line><span class=cl><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=s2>&#34;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=w> </span><span class=s2>&#34; &#34;</span><span class=p>)</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>join</span><span class=p>(</span><span class=k>default</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>))</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&lt;span style=&#39;font-weight: 500; color: var(--text);&#39;&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Event</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&lt;a class=tag&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Area</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;/a&gt;&lt;/span&gt;&#34;</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Entry</span><span class=p>,</span><span class=w> </span><span class=s2>&#34;**Start:** &#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=k>Start</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;**End:** &#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=k>End</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;/strong&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&lt;span style=&#39;border-bottom: 2px solid var(--proj2);&#39;&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Pain</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;/span&gt;&lt;br&gt;&lt;span style=&#39;border-bottom: 2px solid var(--neb2);&#39;&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Distress</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=s2>&#34;Information___________&#34;</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Note</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Note</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/4 Conditions Log&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>WHERE</span><span class=w> </span><span class=k>contains</span><span class=p>(</span><span class=n>file</span><span class=p>.</span><span class=n>name</span><span class=p>,</span><span class=w> </span><span class=s2>&#34;20&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>name</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Conditions-Log-DV.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Conditions-Log-DV.png width=sban alt=|sban></a></p><a href=#code-diary><h2 id=code-diary><span class=hanchor arialabel=Anchor># </span>Code Diary</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=line><span class=cl><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=s2>&#34;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=s2>&#34; &#34;</span><span class=p>)</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>join</span><span class=p>(</span><span class=k>default</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>))</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=k>Language</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34; ― &#34;</span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Program</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Entry</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/5 Code Diary&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>name</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Code-Diary-DV.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Code-Diary-DV.png width=sban alt=|sban></a></p><a href=#resonance-calendar><h2 id=resonance-calendar><span class=hanchor arialabel=Anchor># </span>Resonance Calendar</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=line><span class=cl><span class=o>#####</span><span class=w> </span><span class=k>In</span><span class=w> </span><span class=n>Progress</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=w> </span><span class=s2>&#34;Link&#34;</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Entry</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=nb>Date</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/6 Resonance Calendar&#34;</span><span class=w> </span><span class=o>&amp;</span><span class=w> </span><span class=o>#</span><span class=n>Progress</span><span class=o>/</span><span class=k>In</span><span class=o>-</span><span class=n>Progress</span><span class=w> 
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>######</span><span class=w> </span><span class=n>Mobile</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=w> </span><span class=s2>&#34;  &#34;</span><span class=p>)</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;strong&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;/strong&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Creator</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=k>Source</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=s2>&#34;&lt;br&gt;&#34;</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>ENTRY</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/6 Resonance Calendar&#34;</span><span class=w> </span><span class=o>&amp;</span><span class=w> </span><span class=o>#</span><span class=n>Progress</span><span class=o>/</span><span class=k>In</span><span class=o>-</span><span class=n>Progress</span><span class=w> 
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Resonance-Calendar-DV.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Resonance-Calendar-DV.png width=sban alt=|sban></a></p><a href=#update-log><h2 id=update-log><span class=hanchor arialabel=Anchor># </span>Update Log</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=line><span class=cl><span class=o>```</span><span class=n>dataview</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>TABLE</span><span class=w> </span><span class=k>WITHOUT</span><span class=w> </span><span class=n>ID</span><span class=w> </span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>Title</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>link</span><span class=p>(</span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=p>,</span><span class=w> </span><span class=s2>&#34;Link&#34;</span><span class=p>)</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>Link</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Entry</span><span class=p>,</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=nb>Date</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>Updated_______</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=s2>&#34;10 BuJo/7 Update Log&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>GROUP</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>file</span><span class=p>.</span><span class=n>link</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>SORT</span><span class=w> </span><span class=k>rows</span><span class=p>.</span><span class=n>file</span><span class=p>.</span><span class=n>name</span><span class=w> </span><span class=k>desc</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=w>
+</span></span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Update-Log-DV.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Update-Log-DV.png width=sban alt=|sban></a></p><a href=#journal-sections><h1 id=journal-sections><span class=hanchor arialabel=Anchor># </span>Journal Sections</h1></a><p>The naming scheme of my files is something new and was done to help me quickly identify what type of entry it is. My old system just had the date then a title, but when listing or searching through them it was hard to tell what kind I was looking at. So I came up with this:</p><p><strong>File Title Format</strong>: <code>YYYY-MM-DD-JT-ST - Title</code></p><ul><li><code>JT</code> being the initials for the <code>Journal Type</code></li><li><code>ST</code> being intials for the <code>subtype</code> of the Journal Type</li></ul><table><thead><tr><th style=text-align:center>Initials</th><th style=text-align:left>Type</th></tr></thead><tbody><tr><td style=text-align:center><code>J</code></td><td style=text-align:left>Journal Day</td></tr><tr><td style=text-align:center><code>DJ</code></td><td style=text-align:left>Dream Journal</td></tr><tr><td style=text-align:center><code>WL</code></td><td style=text-align:left>Workout Log</td></tr><tr><td style=text-align:center><code>WL-A</code></td><td style=text-align:left>Workout Log Arm Day</td></tr><tr><td style=text-align:center><code>WL-T</code></td><td style=text-align:left>Workout Log Torso Day</td></tr><tr><td style=text-align:center><code>WL-L</code></td><td style=text-align:left>Workout Log Lower Body Day</td></tr><tr><td style=text-align:center><code>CD</code></td><td style=text-align:left>Code Diary</td></tr><tr><td style=text-align:center><code>UL</code></td><td style=text-align:left>Update Log</td></tr><tr><td style=text-align:center><code>R</code></td><td style=text-align:left>Resonance Calendar</td></tr><tr><td style=text-align:center><code>CL</code></td><td style=text-align:left>Conditions Log</td></tr></tbody></table><p><strong>Examples:</strong></p><ul><li><code>2021-07-24-J - Community Showcase</code></li><li><code>2021-07-27-DJ - The Dream</code></li><li><code>2021-06-19-WL-L - New Leg Routine</code></li></ul><a href=#1-journal><h2 id=1-journal><span class=hanchor arialabel=Anchor># </span>1 Journal</h2></a><a href=#daily-journal-entry><h3 id=daily-journal-entry><span class=hanchor arialabel=Anchor># </span>Daily Journal Entry</h3></a><p>My journal entries for daily notes are often very bare bones, because if I tried to record too much in/about a day I would <em>never</em> write anything. It&rsquo;s been a struggle to find out what it would take to get me to write regularly, but I think this template/setup is the closest I can get to nearly daily writing.</p><hr><p>The <strong>File Title</strong> often is a couple words about each important event that day; sometimes it&rsquo;s only 1 event and sometimes it&rsquo;s 3+. If there&rsquo;s more than 1, I&rsquo;ll just add a <code>+</code> plus sign between the titles to help me see the separation.
+<strong>Example</strong>: <code>2021-05-11-J - Dying Internet + CSV to MD Fixes</code></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Date/Day
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Date: <span class=err>&lt;</span>% tp.file.title.split(&#34;-J &#34;)[0] %&gt;
+</span></span><span class=line><span class=cl>Title: <span class=err>&lt;</span>% tp.file.title.split(&#34; - &#34;)[1] %&gt;
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**[[Journal]]**, [[Day]]<span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% moment(tp.file.title.split(&#34;-J&#34;)[0]).format(&#34;dddd DD, MMMM YYYY&#34;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span>**Year**:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(&#34;-J&#34;)[0]).format(&#34;YYYY&#34;) %&gt;]]
+</span></span><span class=line><span class=cl><span class=gs>**Month**</span>:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(&#34;-J&#34;)[0]).format(&#34;YYYY-MM&#34;) %&gt;]]
+</span></span><span class=line><span class=cl><span class=gs>**Rating**</span>:: [[Rating]]
+</span></span><span class=line><span class=cl><span class=gs>**Tags**</span>:: 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=gh># Summary
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>-</span> <span class=err>&lt;</span>% tp.file.cursor(2) %&gt;
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gu>## Event Title
+</span></span></span><span class=line><span class=cl><span class=gu></span><span class=k>-</span> Event
+</span></span></code></pre></td></tr></table></div></div><p>The <strong>Summary section</strong> is to finally get me to at least put a brief version of the important events that happened that day.</p><p>The <strong>Event Title</strong> headings after that are for more indepth recounts of the events of that day if it&rsquo;s really notable for me. Everything else regarding the actual events is written in bullet points because I do not want to write more than I have to and bullets are just far easier for me to reread.</p><a href=#yearly-journal-entry><h3 id=yearly-journal-entry><span class=hanchor arialabel=Anchor># </span>Yearly Journal Entry</h3></a><p>The yearly journal entry note is also bare bones as well, if not moreso.</p><p>The <strong>File Title</strong> is just the year number (ie. <code>2021</code>).</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Date/Year
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Date: <span class=err>&lt;</span>% tp.file.title %&gt;
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>[[Journal]], [[Year]]<span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% tp.file.title %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span>**Rating**::
+</span></span><span class=line><span class=cl><span class=gs>**Tags**</span>::
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Theme: 
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>-</span> [ ] 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=gh># Reflections
+</span></span></span><span class=line><span class=cl><span class=gh></span>- 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=gh># Entries
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=s>```dataview
+</span></span></span><span class=line><span class=cl><span class=s></span>LIST 
+</span></span><span class=line><span class=cl>FROM &#34;10 BuJo&#34;
+</span></span><span class=line><span class=cl>WHERE contains(file.name, &#34;&lt;% tp.file.title %&gt;-&#34;)
+</span></span><span class=line><span class=cl>SORT file.name desc
+</span></span><span class=line><span class=cl><span class=s>```</span>
+</span></span></code></pre></td></tr></table></div></div><p>Inspired by the video:
+<a href=https://youtu.be/NVGuFdX5guE rel=noopener><strong>Your Theme</strong> by CGP Grey</a>, I have a section for what my theme is for the year. Under that heading is just a place for some task that I might want to accomplish, but sometimes I just delete that and go straight for the reflections.</p><p><strong>Reflections</strong> are something that I fill out throughout the year, because I definitely won&rsquo;t remember nor will I want to sit down at the end of the year and try to remember everything that occurred. By the end of the year I want to <em>read</em> what I accomplished.</p><p>The <strong>Entries</strong> section is just a large list of all the files with the year that matches the current notes year.</p><a href=#2-dream-journal><h2 id=2-dream-journal><span class=hanchor arialabel=Anchor># </span>2 Dream Journal</h2></a><p>The dream note is far more free form and actually written in paragraphs. Most of the time it&rsquo;s often done <em>right</em> when I wake up if I can remember the dream.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Dream
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Date: <span class=err>&lt;</span>% tp.file.title.split(&#34;-DJ&#34;)[0] %&gt;
+</span></span><span class=line><span class=cl>Title: <span class=err>&lt;</span>% tp.file.title.split(&#34; - &#34;)[1] %&gt;
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**[[Dream Journal]]**, [[Journal]]<span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% moment(tp.file.title.split(&#34;-DJ&#34;)[0]).format(&#34;dddd DD, MMMM YYYY&#34;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span>**Year**:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(&#34;-DJ&#34;)[0]).format(&#34;YYYY&#34;) %&gt;]]
+</span></span><span class=line><span class=cl><span class=gs>**Month**</span>:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(&#34;-DJ&#34;)[0]).format(&#34;YYYY-MM&#34;) %&gt;]], <span class=err>&lt;</span>% tp.date.now(&#34;MMMM&#34;) %&gt;
+</span></span><span class=line><span class=cl><span class=gs>**Tags**</span>::
+</span></span><span class=line><span class=cl><span class=gs>**Fandom**</span>:: 
+</span></span><span class=line><span class=cl><span class=gs>**People**</span>:: 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=gh># Event Of Dream
+</span></span></span></code></pre></td></tr></table></div></div><p><a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Dream-Journal-Page.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Dream-Journal-Page.png width=sban alt=|sban></a></p><a href=#3-workout-log><h2 id=3-workout-log><span class=hanchor arialabel=Anchor># </span>3 Workout Log</h2></a><blockquote><p>The workout log is where I record my reps of my workout routine to measure my progress.</p></blockquote><p>The workout log isn’t anything fancy, I just have a Form section on the table where I note how I felt for that particular exercise. Since there are a <em>couple</em> of templates for this part of the journal, I’ll show the results first so you understand what all these pages end up looking like since they’re all the same.</p><p><a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Workout-Log-Page.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Workout-Log-Page.png width=sban alt=|sban></a></p><p><strong>Arm Day Template</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Workout/Arms
+</span></span><span class=line><span class=cl>cssclass: table, t-c, writing
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>Date:: <span class=err>&lt;</span>% tp.file.title.split(/-WL-/)[0] %&gt;
+</span></span><span class=line><span class=cl>Year:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(/-WL-/)[0]).format(&#34;YYYY&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>Month:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(/-WL-/)[0]).format(&#34;YYYY-MM&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Workout:: <a class="internal-link broken">Intense 5 Min Workouts -- Anabolic Aliens</a>
+</span></span><span class=line><span class=cl>Area:: Arms
+</span></span><span class=line><span class=cl>Weight:: 
+</span></span><span class=line><span class=cl>Intensity::
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Title::<span class=err>&lt;</span>% tp.file.title.split(&#34; - &#34;)[1] %&gt;
+</span></span><span class=line><span class=cl>Notes:: 
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Workout</a>: <span class=sb>` dv= this.Area`</span>**, [[Journal]]
+</span></span><span class=line><span class=cl><span class=sb>` dv= this.Workout`</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% moment(tp.file.title.split(/-WL-/)[0]).format(&#34;dddd DD, MMMM YYYY&#34;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>&gt; </span><span class=ge>` dv= this.Notes`
+</span></span></span><span class=line><span class=cl><span class=ge></span>
+</span></span><span class=line><span class=cl>Exercise | Time | Log |
+</span></span><span class=line><span class=cl>---------|:----:|-----|
+</span></span><span class=line><span class=cl><span class=gs>**TRICEPS**</span>||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Overhead Extension</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">1-Arm Landmine Extension</a> | L: 30 sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>R: 30 sec |
+</span></span><span class=line><span class=cl><a class="internal-link broken">1-Arm Landmine Kickback</a> |  L: 30 sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>R: 30 sec |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Skullcrushers</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Close-Grip Bench Press</a> | 1 Min | 
+</span></span><span class=line><span class=cl>||
+</span></span><span class=line><span class=cl><span class=gs>**BICEPS**</span> ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Bicep Curl</a>| 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Reverse Curl</a>| 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Drag Curl</a>| 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Cross Arm Landmine Curl</a>| L: 30 sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>R: 30 sec |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Concetration Landmine Curl</a>| L: 30 sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>R: 30 sec |
+</span></span><span class=line><span class=cl>||
+</span></span><span class=line><span class=cl><span class=gs>**FOREARMS**</span>||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Reverse Wrist Curl</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Rotated Wrist Curl</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Foreward Roll</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Reverse Roll</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Landmine Swing Backs</a> | L: 30 sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>R: 30 sec |
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gu>## Vids
+</span></span></span><span class=line><span class=cl><span class=gu></span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;100%&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;315&#34;</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://www.youtube.com/embed/R4xRByps7nY&#34;</span> <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> <span class=na>allow</span><span class=o>=</span><span class=s>&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;</span> <span class=na>allowfullscreen</span><span class=p>&gt;&lt;/</span><span class=nt>iframe</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;100%&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;315&#34;</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://www.youtube.com/embed/U9sdYBBs1rc&#34;</span> <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> <span class=na>allow</span><span class=o>=</span><span class=s>&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;</span> <span class=na>allowfullscreen</span><span class=p>&gt;&lt;/</span><span class=nt>iframe</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;100%&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;315&#34;</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://www.youtube.com/embed/Nhqo1oLoMCc&#34;</span> <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> <span class=na>allow</span><span class=o>=</span><span class=s>&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;</span> <span class=na>allowfullscreen</span><span class=p>&gt;&lt;/</span><span class=nt>iframe</span><span class=p>&gt;</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Torso Day Template</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Workout/Torso
+</span></span><span class=line><span class=cl>cssclass: table, t-c, writing
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>Date:: <span class=err>&lt;</span>% tp.file.title.split(/-[A-Z]-/)[0] %&gt;
+</span></span><span class=line><span class=cl>Year:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(/-[A-Z]-/)[0]).format(&#34;YYYY&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>Month:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(/-[A-Z]-/)[0]).format(&#34;YYYY-MM&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Workout:: <a class="internal-link broken">Intense 5 Min Workouts -- Anabolic Aliens</a>
+</span></span><span class=line><span class=cl>Area:: Torso
+</span></span><span class=line><span class=cl>Weight:: 
+</span></span><span class=line><span class=cl>Intensity:: 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Title::<span class=err>&lt;</span>% tp.file.title.split(/-[A-Z]-/)[1] %&gt;
+</span></span><span class=line><span class=cl>Notes:: 
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Workout</a>: <span class=sb>` dv= this.Area`</span>**, [[Journal]]
+</span></span><span class=line><span class=cl><span class=sb>` dv= this.Workout`</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% moment(tp.file.title.split(/-[A-Z]-/)[0]).format(&#34;dddd DD, MMMM YYYY&#34;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>&gt; </span><span class=ge>` dv= this.Notes`
+</span></span></span><span class=line><span class=cl><span class=ge></span>
+</span></span><span class=line><span class=cl>Exercise | Time | Log |
+</span></span><span class=line><span class=cl>---------|:----:|-----|
+</span></span><span class=line><span class=cl><span class=gs>**CHEST**</span> |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Standard Alternating Fly</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Standing Alternate Press</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Standing Upward Fly</a> | R: 30 Sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>L: 30 Sec |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Standing Landmine Press</a> | 1 Min | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Wide-Grip Floor Press</a> | 1 Min |
+</span></span><span class=line><span class=cl><span class=gs>**BACK**</span> |
+</span></span><span class=line><span class=cl><a class="internal-link broken">T-Rows</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">1-Arm Landmine Row</a> | R: 30 Sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>L: 30 Sec |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Front Shrug</a> | 1 Min | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Underhand Row</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Good Morning</a> | 1 Min |
+</span></span><span class=line><span class=cl><span class=gs>**SHOULDERS**</span> |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Front Raise</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Overhead Press</a> | 1 Min | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Landmine Face Pull</a> | 1 Min |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Landmine Bent Arm Side Raise</a> | R: 30 Sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>L: 30 Sec |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Over Behind</a> | 1 Min | 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Vids
+</span></span></span><span class=line><span class=cl><span class=gh></span>!<a class="internal-link broken">Intense 5 Min Workouts -- Anabolic Aliens</a>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Lower Body Day Template</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Workout/Leg, Journal/Workout/Core
+</span></span><span class=line><span class=cl>cssclass: table, t-c, writing
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>Date:: <span class=err>&lt;</span>% tp.file.title.split(/-[A-Z]-/)[0] %&gt;
+</span></span><span class=line><span class=cl>Year:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(/-[A-Z]-/)[0]).format(&#34;YYYY&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>Month:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(/-[A-Z]-/)[0]).format(&#34;YYYY-MM&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Workout:: <a class="internal-link broken">Intense 5 Min Workouts -- Anabolic Aliens</a>
+</span></span><span class=line><span class=cl>Area:: Legs, Abs
+</span></span><span class=line><span class=cl>Weight:: 
+</span></span><span class=line><span class=cl>Intensity:: 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Title::<span class=err>&lt;</span>% tp.file.title.split(/-[A-Z]-/)[1] %&gt;
+</span></span><span class=line><span class=cl>Notes:: 
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Workout</a>: <span class=sb>` dv= this.Area`</span>**, [[Journal]]
+</span></span><span class=line><span class=cl><span class=sb>` dv= this.Workout`</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% moment(tp.file.title.split(/-[A-Z]-/)[0]).format(&#34;dddd DD, MMMM YYYY&#34;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>&gt; </span><span class=ge>` dv= this.Notes`
+</span></span></span><span class=line><span class=cl><span class=ge></span>
+</span></span><span class=line><span class=cl>Exercise | Time | Rest | Form |
+</span></span><span class=line><span class=cl>---------|:----:|:----:|------|
+</span></span><span class=line><span class=cl><span class=gs>**Leg**</span> |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Jump Squat</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Alternating Stepping Lunge</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Single-Leg Hip Thrust</a> | L: 45 sec<span class=p>&lt;</span><span class=nt>br</span><span class=p>&gt;</span>R: 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Alternating Stiff-Leg Deadlift</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Standing Calf Raise</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Speed Air Squat</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Alternating Side-Lunge</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Hamstring Heel Curl</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><a class="internal-link broken">Static Squat Hold</a> | 45 sec | 15 sec | 
+</span></span><span class=line><span class=cl><span class=gs>**Core**</span> |
+</span></span><span class=line><span class=cl><a class="internal-link broken">Rising Flutters</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Rocker</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Toe Touchers</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Penguins</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Legs Extended Crunches</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">span> Go&</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Hip Thrusts</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Bikes</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Leg Crunches</a> | 30 sec ||
+</span></span><span class=line><span class=cl><a class="internal-link broken">Busters</a> | 30 sec ||
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Vids
+</span></span></span><span class=line><span class=cl><span class=gh></span>[<span class=nt>Intense 10 Min Full Lower Body &#34;At Home Workout&#34;</span>](<span class=na>https://youtu.be/erKJOb51bCI</span>)
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;100%&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;315&#34;</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://www.youtube.com/embed/erKJOb51bCI&#34;</span> <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> <span class=na>allow</span><span class=o>=</span><span class=s>&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;</span> <span class=na>allowfullscreen</span><span class=p>&gt;&lt;/</span><span class=nt>iframe</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>[<span class=nt>Intense 5 Minute Ab Workout</span>](<span class=na>https://www.youtube.com/watch?v=ITPcN8U_tYg</span>)
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;100%&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;315&#34;</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://www.youtube.com/embed/ITPcN8U_tYg&#34;</span> <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> 
+</span></span></code></pre></td></tr></table></div></div><a href=#4-conditions-log><h2 id=4-conditions-log><span class=hanchor arialabel=Anchor># </span>4 Conditions Log</h2></a><p>The conditions log entry is <em>very</em> new in my system. It used to be a lot random notes with 0 structure to them, but I finally came up with fields that I actually can fill out that are very helpful. I just tried to remember a specific event and what kind of information I wanted to know about, and these were the ones I wanted to have answers for.</p><p><strong>Template</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Condition
+</span></span><span class=line><span class=cl>cssclass: table, t-c, hcl
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Date: <span class=err>&lt;</span>% tp.file.title.split(&#34;-CL &#34;)[0] %&gt;
+</span></span><span class=line><span class=cl>Title: <span class=err>&lt;</span>% tp.file.title.split(&#34; - &#34;)[1] %&gt;
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Event: 
+</span></span><span class=line><span class=cl>Start: 
+</span></span><span class=line><span class=cl>End: 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Symptom: 
+</span></span><span class=line><span class=cl>Area: 
+</span></span><span class=line><span class=cl>Cause: 
+</span></span><span class=line><span class=cl>Condition: 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Pain: 
+</span></span><span class=line><span class=cl>Distress: 
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>Note::
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Year:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(&#34;-CL&#34;)[0]).format(&#34;YYYY&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>Month:: [[<span class=err>&lt;</span>% moment(tp.file.title.split(&#34;-CL&#34;)[0]).format(&#34;YYYY-MM&#34;) %&gt;]]
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Conditions Log</a>**, [[Journal]]<span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% moment(tp.file.title.split(&#34;-CL&#34;)[0]).format(&#34;dddd DD, MMMM YYYY&#34;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span>
+</span></span><span class=line><span class=cl>||
+</span></span><span class=line><span class=cl>---|---|
+</span></span><span class=line><span class=cl>Start | <span class=sb>` dv= this.Start`</span>
+</span></span><span class=line><span class=cl>End | <span class=sb>` dv= this.End`</span>
+</span></span><span class=line><span class=cl>Event | <span class=sb>` dv= this.Event`</span>
+</span></span><span class=line><span class=cl>Symptom | <span class=sb>` dv= this.Symptom`</span>
+</span></span><span class=line><span class=cl>Area | <span class=sb>` dv= this.Area`</span>
+</span></span><span class=line><span class=cl>Cause | <span class=sb>` dv= this.Cause`</span>
+</span></span><span class=line><span class=cl>Condition | <span class=sb>` dv= this.Condition`</span>
+</span></span><span class=line><span class=cl>Pain | <span class=sb>` dv= this.Pain`</span>
+</span></span><span class=line><span class=cl>Distress | <span class=sb>` dv= this.Distress`</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>b</span><span class=p>&gt;</span> <span class=sb>` dv= this.Note`</span> <span class=p>&lt;/</span><span class=nt>b</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gu>###### Summary
+</span></span></span><span class=line><span class=cl><span class=gu></span>- 
+</span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Condition-Page.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Condition-Page.png width=sban alt=|sban></a></p><a href=#5-code-diary><h2 id=5-code-diary><span class=hanchor arialabel=Anchor># </span>5 Code Diary</h2></a><blockquote><p>Inspired by this video:
+<a href="https://www.youtube.com/watch?v=tarmCEHfGa0" rel=noopener><strong>Code Diary: How and Why to Keep One</strong> by Semicolon&Sons</a>, I decided to create a code diary. The video breaks down why to use and what goes into a code diary far more than I will, so do watch the video if you&rsquo;re interested.</p></blockquote><p>For my personal Code Diary so far, I mostly write down code that, through trial and error, I came up with that does a particular thing that may be useful to know why it was done or just <em>what</em> it does.</p><p><strong>Template:</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Code-Diary
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Date: <span class=err>&lt;</span>% tp.file.title.split(&#34;-CD&#34;)[0] %&gt;
+</span></span><span class=line><span class=cl>Title: <span class=err>&lt;</span>% tp.file.title.split(&#34; - &#34;)[1] %&gt;
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Code Diary</a>**, [[Journal]]
+</span></span><span class=line><span class=cl><a class="internal-link broken">span>% tp.file.cursor(2) %&gt;</a>, <a class="internal-link broken">span>% tp.file.cursor(4) %&gt;</a>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Code
+</span></span></span><span class=line><span class=cl><span class=gh></span>```<span class=err>&lt;</span>% tp.file.cursor(5) %&gt;
+</span></span><span class=line><span class=cl>```
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Explanation
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>-</span> <span class=err>&lt;</span>% tp.file.cursor(6) %&gt;
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Result
+</span></span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Code-Diary-Page.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Code-Diary-Page.png width=sban alt=|sban></a></p><a href=#6-resonance-calendar><h2 id=6-resonance-calendar><span class=hanchor arialabel=Anchor># </span>6 Resonance Calendar</h2></a><blockquote><p>I was inspired by this video
+<a href="https://www.youtube.com/watch?v=lKYBB-Uw1IM" rel=noopener><strong>How I use Notion as a Resonance Calendar</strong> by Ali Abdaal</a>, watch through the video for a more indepth look at what a Resonance Calendar is.</p></blockquote><p>The resonance calendar is a journal entry about a work that challenges the way I think or provides new insights.</p><p>The <strong>File Title</strong> format: <code>YYYY-MM-DD-R - Title -- Creator</code>.
+The double dashes to me signify that it&rsquo;s a work with a creator that isn&rsquo;t me. Anything that comes after <code>--</code> tells me <em>that&rsquo;s</em> the creator. Usually I would have these flipped, but the work title is slightly more important to me to see first.</p><p><strong>Template:</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Resonance
+</span></span><span class=line><span class=cl>cssclass: hcl
+</span></span><span class=line><span class=cl>Date: <span class=err>&lt;</span>% tp.file.title.split(&#34;-R&#34;)[0] %&gt;
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl>Title:: <span class=err>&lt;</span>% tp.file.title.split(&#34; - &#34;)[1].replace(/ --.\*/, &#39;&#39;) %&gt;
+</span></span><span class=line><span class=cl>Creator:: <span class=err>&lt;</span>% tp.file.title.split(&#34; -- &#34;)[1] %&gt;
+</span></span><span class=line><span class=cl>Source:: <span class=err>&lt;</span>% tp.file.cursor(1) %&gt;
+</span></span><span class=line><span class=cl>Media:: <a class="internal-link broken">Medium</a>
+</span></span><span class=line><span class=cl>%%
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Resonance Calendar</a>**<span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># &lt;% tp.file.title.split(&#34;-R&#34;)[1].replace(/ --.*/, &#39;&#39;) %&gt;
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>`dv= this.Source`<span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>iframe</span> <span class=na>width</span><span class=o>=</span><span class=s>100%</span> <span class=na>height</span><span class=o>=</span><span class=s>300px</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;&lt;% tp.file.cursor(2) %&gt;&#34;</span> <span class=na>frameborder</span><span class=o>=</span><span class=s>&#34;0&#34;</span> <span class=na>allow</span><span class=o>=</span><span class=s>&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;</span> <span class=na>allowfullscreen</span><span class=p>&gt;&lt;/</span><span class=nt>iframe</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># Notes
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=err>&lt;</span>% tp.file.cursor(3) %&gt;
+</span></span></code></pre></td></tr></table></div></div><p>The page has some <strong>metadata</strong> about the work that I want to know:</p><ul><li>The <strong>Date</strong> when I decided to add it to the journal</li><li>Who the <strong>Creator</strong> of that work is</li><li>The <strong>Source</strong>/where I found it</li><li>What type of <strong>Media</strong> it is (ie. Video, Podcast, Article, Book, etc)</li></ul><p>Then I&rsquo;ll embed that source if I can, otherwise I&rsquo;ll just delete the <code>iframe</code> and continue onto my notes.</p><p>The notes aren&rsquo;t anything special, this is still a fairly new setup for me, so it&rsquo;s just bullet points on things I found interesting or profound from the work.</p><p>If I haven&rsquo;t finished taking notes on the video I&rsquo;ll just randomly throw in a tag so that it looks ugly and bothers me so I <em>have</em> to go through the video to get rid of it. Which is nice because I can have my mind blown all over again.</p><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Resonance-Calendar-Page.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Resonance-Calendar-Page.png width=sban alt=|sban></a></p><a href=#7-update-log><h2 id=7-update-log><span class=hanchor arialabel=Anchor># </span>7 Update Log</h2></a><blockquote><p>The <strong>Update Log</strong> is where I list out the things I&rsquo;ve changed between creation or the last update of a project.</p></blockquote><p>I keep the update log&rsquo;s page very simple as it&rsquo;s just the bare bones outline of the updates I&rsquo;ve added. For now, the only project that I have that I need updates for is the
+<a href=https://forum.obsidian.md/t/theme-its-dark-light-theme rel=noopener><strong>ITS Theme</strong></a>.</p><p>The title and date are usually left blank until I feel I&rsquo;ve done enough to finally push an update through. <em>Then</em>, I&rsquo;ll add the information manually to all of it. The only thing that&rsquo;s updated first is the Project wikilink.</p><hr><p>The <strong>File Title</strong> will be formatted <code>YYYY-MM-DD-UL-PI - Updates</code>.
+<code>PI</code> is the project initials that I decide on, usually about 2-5 letters depending on the title. <strong>For example</strong>, for the ITS Theme updates the file title is:</p><p><code>2021-07-31-UL-ITS - Icon & Image Adjustment & Updates + Kanban Adjustments</code></p><p><strong>Template:</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-md data-lang=md><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>tags: Journal/Update-Log
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Date: 
+</span></span><span class=line><span class=cl>Title: 
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span><span class=p>&gt;</span>**<a class="internal-link broken">Update Log</a>**
+</span></span><span class=line><span class=cl><span class=gs>**Project**</span>:: [[]]
+</span></span><span class=line><span class=cl><span class=gs>**Link**</span>:: []()
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=gh># ` dv= this.Date` - ` dv= this.Project`
+</span></span></span><span class=line><span class=cl><span class=gh></span><span class=k>-</span> Updates/Fixes
+</span></span></code></pre></td></tr></table></div></div><p><strong>Result:</strong>
+<a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_Update-Log-Page.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_Update-Log-Page.png width=sban alt=|sban></a></p><a href=#quickadd><h1 id=quickadd><span class=hanchor arialabel=Anchor># </span>QuickAdd</h1></a><blockquote><p>The QuickAdd plugin allows me to easily select whichever type of journal entry I want to create and enter the information I need.</p></blockquote><p><a rel=noopener class="internal-link broken" data-src=0_Technical/1_Images/Setup-Journal_QuickAdd-Prompt.png><img src=https://SlRvb.github.io/Site/0_Technical/1_Images/Setup-Journal_QuickAdd-Prompt.png width=sban alt=|sban></a></p><p>My setup here is <em>very</em> simple, just a template with some stuff in the file name and folder input and toggled on <code>Open</code> to open to the note once it&rsquo;s created.</p><blockquote><p><strong>For simplicity:</strong>
+<code>1</code> is the <strong>File Name Format</strong>
+<code>2</code> is the <strong>Folder Format</strong></p></blockquote><hr><p><strong>Bullet Journal</strong> ― Template</p><ol><li><code>{{DATE:YYYY}}/{{DATE}}-J - {{VALUE:Title}}.md</code></li><li><code>10 BuJo/1 Journal</code></li></ol><hr><p><strong>Dream Journal</strong> ― Template</p><ol><li><code>{{DATE:YYYY}}/{{DATE}}-DJ - {{VALUE:Title}}.md</code></li><li><code>10 BuJo/2 Dream Journal</code></li></ol><hr><p><strong>Workout Log</strong> ― Template</p><ol><li><code>{{DATE:YYYY}}/{{DATE}}-WL-{{VALUE:A,T,L,W}} - .md</code></li><li><code>10 BuJo/2 Dream Journal</code></li></ol><p>The template for this is different since I have different options I need to chose from. The letters are mostly the same choices from the table in the <strong><a rel=noopener class="internal-link broken" data-src=#Journal%20Sections>Journal Sections</a></strong>. The only addition here is <code>W</code> which is just a blank template to add a different workout routine from the the usual arm/torso/leg.</p><p><strong>Template Note:</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span><span class=lnt>9
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>&lt;%* if (tp.file.title.match(/.*-WL-A/)) { -%&gt;
+</span></span><span class=line><span class=cl>&lt;% tp.file.include(&#34;[[Arm Day Template]]&#34;) %&gt;
+</span></span><span class=line><span class=cl>&lt;%* } else if (tp.file.title.match(/.*-WL-T/)) { -%&gt;
+</span></span><span class=line><span class=cl>&lt;% tp.file.include(&#34;[[Torso Day Template]]&#34;) %&gt;
+</span></span><span class=line><span class=cl>&lt;%* } else if (tp.file.title.match(/.*-WL-L/)) { -%&gt;
+</span></span><span class=line><span class=cl>&lt;% tp.file.include(&#34;[[Lower Body Day Template]]&#34;) %&gt;
+</span></span><span class=line><span class=cl>&lt;%* } else if (tp.file.title.match(/.*-WL-W/)) { -%&gt;
+</span></span><span class=line><span class=cl>&lt;% tp.file.include(&#34;[[Workout Log Template]]&#34;) %&gt;
+</span></span><span class=line><span class=cl>&lt;%* } else {} %&gt;
+</span></span></code></pre></td></tr></table></div></div><p>This is the template that I have for quickadd to use when creating a note. The template will read the title of the journal entry and if it matches the letter, will add <em>that</em> specific template to the note.</p><hr><p><strong>Conditions Log</strong> ― Template</p><ol><li><code>{{DATE:YYYY}}/{{DATE}}-CL - {{VALUE:Title}}.md</code></li><li><code>10 BuJo/4 Conditions Log</code></li></ol><hr><p><strong>Code Diary</strong> ― Template</p><ol><li><code>{{DATE}}-CD-{{VALUE:Language}} - {{VALUE:Title}}.md</code></li><li><code>10 BuJo/4 Code Diary</code></li></ol><hr><p><strong>Resonance Calendar</strong> ― Template</p><ol><li><code>{{DATE}}-R - {{VALUE:Title}} -- {{VALUE:Creator}}.md</code></li><li><code>10 BuJo/6 Resonance Log</code></li></ol><hr><p><strong>Update Log</strong> ― Template</p><ol><li><code>{{DATE}}-UL-{{VALUE}} - .md</code></li><li><code>10 BuJo/6 Update Log</code></li></ol><a href=#link-styling><h1 id=link-styling><span class=hanchor arialabel=Anchor># </span>Link Styling</h1></a><blockquote><p>This is the css that I use to add the icons for each entry that you see in the screenshots of the <strong><a rel=noopener class="internal-link broken" data-src=#0%20BuJo%20MOCs>0 BuJo MOCs</a></strong> Section.</p></blockquote><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-css data-lang=css><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-J - &#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\ead6&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>rmx</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>bujo2</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-DJ - &#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\ea46&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>mdi</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=mh>#9bacad</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-UL&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\f0d9&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>rmx</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=mh>#a483c3</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-CD&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\e86f&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>mdi</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=mh>#74c897</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-R - &#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\eea7&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>rmx</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=mh>#e0a97b</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-CL&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\ee10&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>rmx</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=mh>#e299d0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nt>a</span><span class=p>.</span><span class=nc>internal-link</span><span class=o>[</span><span class=nt>href</span><span class=o>*=</span><span class=s2>&#34;-WL&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>before</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>content</span><span class=p>:</span> <span class=s2>&#34;\eae6&#34;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=k>font-family</span><span class=p>:</span> <span class=nf>var</span><span class=p>(</span><span class=o>--</span><span class=n>rmx</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=k>color</span><span class=p>:</span> <span class=mh>#72b4b4</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div></article><hr><div class=page-end id=footer><div class=backlinks-container><h6>Backlinks</h6><ul class=backlinks><li>No backlinks found</li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://SlRvb.github.io/Site/js/graph.abd4bc2af3869a96524d7d23b76152c7.js></script></div></div><div id=contact_buttons><footer><p>Made by SlRvb using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2022</p><ul><li><a href=https://SlRvb.github.io/Site>Home</a></li><li><a href=https://github.com/slrvb>Github</a></li><li><a href=https://ko-fi.com/slrvb>Ko-Fi</a></li></ul></footer></div></div></body></html>
