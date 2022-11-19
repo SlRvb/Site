@@ -1,12 +1,14 @@
 ---
 alias: Vola
 title: "Vola"
+tags: TTRPG/Character, Character
 ---
 
 > Will do anything to have fun, especially crime.
 
 > [!infobox|n-th]
 > ![sban](https://64.media.tumblr.com/4a4e3ceaea086a158d03116cb312870d/tumblr_pyiyz9EXUr1u8bv9eo1_1280.jpg)
+> 
 > [LinaisBluePancake](https://linaisbluepancake.tumblr.com/post/187995374842/dnd-characters-bust-commissions-i-never-posted-but/amp)
 >
 |  |  |

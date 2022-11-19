@@ -1,4 +1,0 @@
----
-alias: Aside
-title: "Aside"
----

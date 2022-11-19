@@ -42,7 +42,7 @@ Folder | Description of Log |
 # 0 BuJo: MOCs
 Most of the MOC pages heavily utilize Dataview to list out the entries dynamically so that I don't have to spend time linking things myself. 
 
-> The fields these dataview tables use are in the **[Journal Sections](3_Nebula/Setup_Bullet-Journal.md#Journal%20Sections)**.
+> The fields these dataview tables use are in the **[Journal Sections](Setup--Bullet-Journal.md#Journal%20Sections)**.
 
 ## Journal Homepage
 ````md
