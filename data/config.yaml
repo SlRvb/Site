@@ -15,7 +15,7 @@ GitHubLink: https://github.com/SlRvb/Site
 enableSemanticSearch: false
 description: SlRvb's site.
 page_title:
-  SlRvb
+  SlRvb-Site
 theme:
   - base
   - slrvb-g
