@@ -1,11 +1,16 @@
 ---
 alias: Nebula
-title: "Nebula"
+title: "Nebula Home"
+summary: ""
+
+tags: Nebula, MOC
+include_toc: true
+cssclass: notion
 ---
 
-- [[ITS-Theme/ITST--ITS-Theme|ITS Theme]]
+- [ITS Theme](3_Nebula/ITS-Theme/ITST--ITS-Theme.md)
 
 ---
 - [Setups](/tags/Setup)
-	- [[Setup--Bullet-Journal|Bullet Journal]]
-	- [[Setup--MediaDB|MediaDB]]
+	- [Bullet Journal](3_Nebula/Setup--Bullet-Journal.md)
+	- [MediaDB](3_Nebula/Setup--MediaDB.md)

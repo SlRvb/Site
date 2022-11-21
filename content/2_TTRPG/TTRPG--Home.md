@@ -1,15 +1,22 @@
 ---
 alias: "TTRPG"
 title: "TTRPG Home"
+summary: ""
+
+tags: TTRPG, MOC
 include_toc: false
-cssclass: dnd
+cssclass: wotc-beyond
 ---
 
-# Universes
+# Multiverses
+- [Food Adventures]()
+- [Slayer]()
+- [S.A.L.T.]()
+- [Zombie Apocalypse]()
 
-
-# [Dungeons & Dragons](Dungeons_And_Dragons/DnDU_Dungeons-And-Dragons.md)
-- [Spells](Dungeons_And_Dragons/0_DnD/DnDU_Spells.md)
+# Campaigns/Adventures
+- [Grad Nite]()
 
 # Characters
-- [Angela Navarro](Characters/TTRPG--C-Angela-Navarro.md)
+- [Vola](2_TTRPG/Characters/TTRPG-C--Vola.md)
+- [Angela Navarro](2_TTRPG/Characters/TTRPG-C--Angela-Navarro.md)

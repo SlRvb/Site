@@ -4,6 +4,6 @@ title: "SlRvb's Site"
 ---
 
 - [[SlRvb|About Me]]
-	- [[3_Nebula/ITS-Theme/ITST_ITS-Theme|ITS Theme]]
-- [[3_Nebula/Neb_Nebula|Nebula]]
-- [[2_TTRPG/TTRPG--Home|TTRPG]]
+	- [ITS Theme](3_Nebula/ITS-Theme/ITST--ITS-Theme.md)
+- [Nebula](3_Nebula/Neb--Nebula.md)
+- [TTRPG](2_TTRPG/TTRPG--Home.md)

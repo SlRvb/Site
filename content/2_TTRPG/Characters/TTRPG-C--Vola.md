@@ -1,8 +1,15 @@
 ---
 alias: Vola
 title: "Vola"
+summary: ""
+
 tags: TTRPG/Character, Character
+include_toc: true
+cssclass: wotc-beyond
 ---
+
+> [!note]
+> **Campaign**:: Iron Hounds Reliquary
 
 > Will do anything to have fun, especially crime.
 

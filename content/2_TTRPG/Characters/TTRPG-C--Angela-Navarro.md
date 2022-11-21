@@ -1,35 +1,41 @@
 ---
 alias: Angela Navarro
 title: "Angela Navarro"
+summary: ""
+
 tags: TTRPG/Character, Character
+include_toc: true
+cssclass: 
 ---
+
 
 [![|locl+hm-sm+cover](https://cdnb.artstation.com/p/assets/images/images/004/035/615/large/faouzi-hamida-compo-cowboygirl.jpg?1479709066)](https://faz.artstation.com/projects/DN89)<i id=left>[**Cowboy Girl** by *Faouzi Hamida*](https://faz.artstation.com/projects/DN89)</i>
 
 > Vengeful gun slinging outlaw
 > **By [SlRvb](SlRvb.md)**
 
-||
----|---|
-**Age**	 | 32 
-**Height** | 5'3" 
-**Gender**| Female 
-**Sexuality** | Bisexual 
-**Romanticality** | Polyamorous 
-**Nationality** | . 
-**Ethnicity** | . 
-**Voice** | Thick Hispanic Accent
+|  |  |
+| --- | --- |
+| **Age** | 32 |
+| **Height** | 5'3" |
+| **Gender** | Female |
+| **Sexuality** | Bisexual |
+| **Romanticality** | Polyamorous |
+| **Nationality** | . |
+| **Ethnicity** | . |
+| **Voice** | Thick Hispanic Accent |
 
-Accent | Pronunciation |
---------|---------------|
-**American** | /æn-dʒe-lə/ /Nɑː-vɑː-roʊ/ |
-**Latinx** | /ɔːŋ-he-lɑː/ /Nɑː-/ |
+
+| Accent | Pronunciation |
+| --- | --- |
+| **American** | /æn-dʒe-lə/ /Nɑː-vɑː-roʊ/ |
+| **Latinx** | /ɔːŋ-he-lɑː/ /Nɑː-/ |
 
 # Stats
 
-Class | Race | Alignment |
-:-----:|:-----:|:----------:|
-Slayer | Human | Chaotic Neutral |
+| Class | Race | Alignment |
+|:---:|:---:|:---:|
+| Slayer | Human | Chaotic Neutral |
 
 Initiative | AC | HP |
 :--------:|:---:|:---:|
