@@ -1,0 +1,46 @@
+#search-container {
+    overflow-x: hidden;
+
+    & > div {
+        & > * {
+            width: 100%;
+            background: var(--note);
+            box-shadow: 0;
+            margin-bottom: 2em;
+            border-radius: 0;
+        }
+        & > input { 
+            border: 3px solid var(--outline); 
+            
+            &::placeholder { color: var(--inactive); }
+        }
+
+        //Result card
+        & > #results-container .result-card {
+            border: 3px solid var(--lines);
+            border-bottom: 0;
+
+            & h1, h3 { &::after { display: none; }}
+
+            &:hover,
+            &:focus { 
+                background: var(--embed-bg);
+                border-radius: 0;
+            }
+            &:first-of-type,
+            &:last-of-type { border-radius: 0; }
+            &:last-of-type { border-bottom: 3px solid var(--outline); }
+
+            & .search-highlight {
+                border-radius: 0;
+                background: var(--text-highlight-bg);
+            }
+            
+        }
+        //Button
+        button.result-card :hover {
+            background: var(--text-selection);
+            border-radius: 0;
+        }
+    }
+}

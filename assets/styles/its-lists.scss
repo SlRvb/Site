@@ -1,0 +1,59 @@
+
+
+/*Bullet Lines*/
+ul { padding-inline-start: 20px; }
+ul:not(.tags) li,
+ol:not(.tags) li {
+    padding-left: 5px;
+    border-left: 2px solid var(--accent);
+    line-height: var(--lh);
+    
+    &:nth-child(even) {
+        border-left: 2px solid var(--accent2);
+    }
+}
+  
+ul:not(.tags) li {
+    &::marker { color: transparent; }
+
+    //Bullet
+    &::before {
+        content: "\e802";
+        font-family: var(--its);
+        margin-left: -22px;
+        color: var(--accent);
+        position: relative; /*For Spaced Lists*/
+        float: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: var(--f-text);
+    }
+
+    &:nth-child(even)::before { color: var(--accent2); }
+}
+  
+
+
+
+//?
+.section-ul {
+    list-style: none;
+    margin-top: 2em;
+    padding-left: 0;
+  
+    & > li {
+        padding: 0 1em;
+        margin-bottom: 1em;
+        border: 2px solid var(--outline);
+        box-shadow: 4px 4px 0 var(--outline);
+    
+        &:nth-child(even) { border: 2px solid var(--outline); }
+    
+        &:hover { 
+            border-color: transparent;
+            background-color: var(--embed-bg); 
+        }
+    
+        &::before { display: none; }
+    }
+}

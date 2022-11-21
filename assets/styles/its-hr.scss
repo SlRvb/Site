@@ -1,0 +1,30 @@
+/*HR*/
+article hr {
+    width: auto;
+    margin: 30px auto;
+    height: 2px;
+    border-radius: 1px;
+    border-width: 0;
+    color: var(--text);
+    background-color: var(--hr);
+
+    &::after {
+        font-family: var(--hr-f) !important;
+        content: var(--hr-sym);
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0deg);
+        font-size: var(--f-text);
+        transform-origin: 50% 50%;
+        color: transparent;
+        text-shadow: 0 0 0 var(--headers);
+        padding: 0 .2em; /*Symbol Padding*/
+        background-color: var(--note);
+    }
+}
+hr {
+  height: 2px;
+  border-width: 0;
+  background-color: var(--hr);
+}

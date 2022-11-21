@@ -1,0 +1,27 @@
+.page-end {
+
+    & > .backlinks-container {
+        & > ul {
+            // list-style: circle;
+            padding-left: 0;
+            
+            // & li::before {
+            //     content: '';
+            // }
+            
+            & > li {
+                margin: 0.5em 0;
+                padding: 0.25em 1em;
+                border-radius: 0;
+                border: 2px solid var(--outline);
+                box-shadow: 2px 2px 0 var(--outline);
+                // border: none;
+            }
+        }
+    }
+  
+    & #graph-container {
+        border: 2px solid var(--outline);
+        box-shadow: 2px 2px 0 var(--outline);
+    }
+}

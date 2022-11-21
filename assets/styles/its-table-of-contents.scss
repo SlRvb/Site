@@ -1,0 +1,17 @@
+/*Table Of Contents*/
+.mainTOC {
+    background-color: var(--outer-bar);
+    padding: 10px 20px;
+    border-radius: 0;
+    
+    & h3::after { display: none; }  
+}
+summary { color: var(--text); }
+#TableOfContents > ul,
+#TableOfContents > ol {
+    & > li::marker, & > li > ol > li::marker {
+    font-family: var(--txt-fnt);
+    font-weight: 700;
+  }
+}
+

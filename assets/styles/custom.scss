@@ -176,3 +176,26 @@
   --progress: var(--accent);
   --progress-bg: var(--bg);
 }
+
+
+
+
+ol, ul, thead {
+  font-family: var(--txt-fnt);
+  color: var(--text);
+}
+
+
+p, ul, text {
+  font-family: var(--txt-fnt);
+  color: var(--soft-text);
+  fill: var(--soft-text);
+}
+
+p, tbody, li {
+  font-family: var(--txt-fnt);
+  color: var(--text);
+  line-height: 1.5em;
+  font-size: 16px;
+}
+

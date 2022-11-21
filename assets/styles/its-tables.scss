@@ -1,0 +1,38 @@
+/*Table*/
+table {
+    border-spacing: 0;
+    margin: 20px 0;
+    font-family: var(--txt-fnt);
+    padding: 10px;
+    // margin: auto;
+    
+    border-color: var(--note);
+    width: auto;
+}
+td, th {
+    padding: 5px 10px;
+    border: none;
+}
+th {
+    background-color: var(--th);
+    color: #edf7ff;
+    border: 0px;
+}
+th:nth-child(even) {
+    opacity: 80%;
+    border-left: 1px solid var(--note);
+    border-right: 1px solid var(--note);
+}
+
+td:nth-child(odd) {
+    background-color: var(--td);
+    border: 0;
+    border-bottom: 1px solid var(--note);
+}
+
+tr:nth-child(even) {
+    background-color: var(--td);
+    border: 0;
+}
+
+  

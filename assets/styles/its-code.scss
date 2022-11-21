@@ -1,0 +1,28 @@
+/*Code*/
+code,
+pre {
+    color: var(--code-text);
+    font-family: 'Fira Code Medium';
+    background-color: var(--code-bg);
+    line-height: 1.4em;
+    border-radius: 0;
+    overflow: auto;
+    border: 1px solid var(--td);
+    box-shadow: 0 .2em #00000010;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px 4px;
+}
+
+.chroma {
+    background-color: var(--code-bg) !important;
+    border-radius: 0 !important;
+    border: unset;
+    
+    & .lntable tr > .lntd:nth-child(1) { width: 0; }
+  
+    & code {
+      box-shadow: unset;
+      border: 0;
+    }
+}
