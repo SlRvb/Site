@@ -3,7 +3,7 @@ alias: "TTRPG"
 title: "TTRPG Home"
 summary: ""
 
-tags: TTRPG, MOC
+tags: [TTRPG, MOC]
 include_toc: false
 cssclass: wotc-beyond
 ---

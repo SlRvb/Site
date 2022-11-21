@@ -3,7 +3,7 @@ alias: Vola
 title: "Vola"
 summary: ""
 
-tags: TTRPG/Character, Character
+tags: [TTRPG/Character, Character]
 include_toc: true
 cssclass: wotc-beyond
 ---

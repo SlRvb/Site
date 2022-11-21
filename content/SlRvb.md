@@ -3,7 +3,7 @@ alias: SlRvb
 title: "SlRvb"
 summary: "About Me"
 
-tags: 
+tags: MOC
 include_toc: true
 cssclass: slrvb-g
 ---
@@ -15,7 +15,7 @@ Feel free to support me on [Ko-fi](https://ko-fi.com/slrvb) if you enjoy my work
 # My Stuff
 - [Obsidian: ITS Theme & Snippets | Github](https://github.com/SlRvb/Obsidian--ITS-Theme)
 
-###### Obsidian Setups
+## Obsidian Setups
 - **D&D Showcase** - How I setup my vault for Table Top games.
 	- [D&D Showcase - Youtube](https://www.youtube.com/watch?v=Ovqu_1aW3Sw)
 
@@ -26,7 +26,7 @@ Feel free to support me on [Ko-fi](https://ko-fi.com/slrvb) if you enjoy my work
 - **MediaDB Setup** - How I setup my vault to track the media I consume.
 	- [MediaDB - Obsidian Forum](https://forum.obsidian.md/t/slrvbs-mediadb-setup/23227)
 
-### links
+## Links
 
 - [Github](https://github.com/SlRvb/)
 - [Bandcamp](https://slrvb.bandcamp.com)

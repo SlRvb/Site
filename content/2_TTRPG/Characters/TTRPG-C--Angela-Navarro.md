@@ -3,7 +3,7 @@ alias: Angela Navarro
 title: "Angela Navarro"
 summary: ""
 
-tags: TTRPG/Character, Character
+tags: [TTRPG/Character, Character]
 include_toc: true
 cssclass: 
 ---
