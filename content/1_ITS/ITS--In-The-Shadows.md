@@ -1,9 +1,9 @@
 ---
-alias: In The Shadows
+alias: In The Shadows, In The Shadows Universe
 title: "In The Shadows Home"
 summary: ""
 
-tags: ITS, MOC
+tags: [ITS, MOC]
 include_toc: true
 cssclass: its
 ---

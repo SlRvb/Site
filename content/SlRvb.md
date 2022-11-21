@@ -8,10 +8,6 @@ include_toc: true
 cssclass: slrvb-g
 ---
 
-> Hello! I'm the creator of the [ITS Theme](https://github.com/SlRvb/Obsidian--ITS-Theme) and all it's [related snippets](https://github.com/SlRvb/Obsidian--ITS-Theme#guidereference).
-
-Feel free to support me on [Ko-fi](https://ko-fi.com/slrvb) if you enjoy my work!
-
 # My Stuff
 - [Obsidian: ITS Theme & Snippets | Github](https://github.com/SlRvb/Obsidian--ITS-Theme)
 
@@ -35,3 +31,4 @@ Feel free to support me on [Ko-fi](https://ko-fi.com/slrvb) if you enjoy my work
 - [Youtube Music](https://music.youtube.com/channel/UCEZTWy_ug9IvZ3sAMbS1Jmg)
 - [Youtube](https://www.youtube.com/channel/UCk9VNgwsC2s9kP8CIlc29yw/featured)
 - [Unsplash](https://unsplash.com/@slrvb/collections)
+- [Mastodon](https://pkm.social/@SlRvb)

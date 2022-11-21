@@ -7,24 +7,23 @@ tags: [TTRPG/Character, Character]
 include_toc: true
 cssclass: wotc-beyond
 ---
-
-> [!note]
-> **Campaign**:: Iron Hounds Reliquary
-
-> Will do anything to have fun, especially crime.
+> [!info]
+> **Campaign**:: [Iron Hounds Reliquary - OMG One Shot by Jethoof](https://jethoof.github.io/ttrpg/notes/OMG-One-Shot-Campaign-Selection-and-Outline/)
 
 > [!infobox|n-th]
 > ![sban](https://64.media.tumblr.com/4a4e3ceaea086a158d03116cb312870d/tumblr_pyiyz9EXUr1u8bv9eo1_1280.jpg)
 > 
 > [LinaisBluePancake](https://linaisbluepancake.tumblr.com/post/187995374842/dnd-characters-bust-commissions-i-never-posted-but/amp)
 >
-|  |  |
-| --- | --- |
-| **Class** | Barbarian |
-| **Level** | 3 |
-| **Race** | Half-Orc |
-| **Alignment** | Chaotic Neutral |
-| **Background** | Criminal |
+> |  |  |
+> | --- | --- |
+> | **Class** | Barbarian |
+> | **Level** | 3 |
+> | **Race** | Half-Orc |
+> | **Alignment** | Chaotic Neutral |
+> | **Background** | Criminal |
+
+> Will do anything to have fun, especially crime.
 
 **Prononunciation:** /Voʊ-lɑː/
 
