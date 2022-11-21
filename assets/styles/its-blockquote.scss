@@ -18,5 +18,7 @@ blockquote:not([class$='callout']) {
         right: 1.5em;
         top: 1.5em;
     }
+
+    & [href^="http"]:not(.tag, .internal-link) {  text-decoration: underline 2px solid; }
 }
   

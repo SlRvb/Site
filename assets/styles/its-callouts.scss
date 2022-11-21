@@ -1,0 +1,32 @@
+blockquote {
+    --callout-note: #5b88cc;
+    --callout-note-accent: #224675;
+
+    --callout-info-accent: #194557;
+}
+
+blockquote[class][class*="-callout"] {
+    border-radius: 0;
+    padding-bottom: 0;
+
+    & a.internal-link.internal-link::after,
+    & a[href^="http"]::after {
+        color: var(--lite-accent);
+    }
+}
+
+blockquote[class][class][class*='infobox'] {
+    float: right;
+    width: auto;
+    max-width: 20vw;
+    
+    margin: 0;
+    margin-left: 8px;
+    border: 0 !important;
+    background-color: var(--note);
+
+
+    & p { padding: unset; text-align: center; }
+    & img { margin: unset; }
+    & table { margin: auto; }
+}

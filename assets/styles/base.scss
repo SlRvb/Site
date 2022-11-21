@@ -266,7 +266,7 @@ a {
   transition: all 0.2s ease;
   color: var(--secondary);
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--tertiary);
   }
 }
 

@@ -1,0 +1,62 @@
+.section .tags a,
+.tags.tags a {
+    border-radius: 0;
+    border: 0;
+    background-color: var(--tag);
+    color: var(--text-dl);
+
+    &::before { color: var(--text-dl); }
+    &::after { display: none; }
+    &:hover { 
+        color: var(--text-dl); 
+        background-color: var(--accent2);
+    }
+}
+ul.tags.tags a { 
+    text-transform: lowercase;
+    text-decoration: none;
+ }
+
+//Tag Pages "Query"
+.section-ul {
+    list-style: none;
+    margin-top: 2em;
+    
+    //Pages
+    & > .section-li {
+        padding-left: 1em;
+
+        border: 2px solid var(--outline);
+        box-shadow: 4px 4px 0 var(--outline);
+
+        &:nth-child(even) { border-left: 2px solid var(--outline); }
+    }
+
+    //Metadata
+    //Tags
+    & .section {
+        & .tags li { 
+            border: 0; 
+            padding: 0;
+            margin: auto;
+        }
+        & .meta { white-space: nowrap; }
+        & .desc { width: 100%;  }
+        & .desc h3::after { display: none; }
+        // & .spacer { display: none; }
+
+    } 
+
+
+    & li {
+        padding: .7rem 1em;
+        margin-bottom: 1em;    
+    
+        &:hover { 
+            border-color: transparent;
+            background-color: var(--embed-bg); 
+        }
+    
+        &::before { display: none; }
+    }
+}

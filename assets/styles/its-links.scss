@@ -7,24 +7,21 @@ a {
     transition: all 0.2s ease;
     color: var(--text);
   
-    &:hover { color: var(--accent2-lite) !important; }
-    // Internal Link
-    &[href^="/"]::after,
-    &[href^="./"]::after,
-    &[href^="../"]::after {
-      content: "\e819";
-      font-family: var(--its);
-      color: var(--accent);
-      margin-right: -7px;
-    }
     
-    //External Link
+    &:hover { color: var(--accent2-lite) }
+
+    // Internal Link
+    &.internal-link.internal-link::after,
     &[href^="http"]::after {
-      content: "\e818";
       font-family: var(--its);
       color: var(--accent);
-      margin-right: -7px;
+      margin-right: -10px;
+      text-decoration-color: var(--note);
     }
+    &.internal-link.internal-link::after { content: "\e819"; }
+    //External Link
+    &[href^="http"]::after { content: "\e818"; }
+
     //Linked Image
     &[href$=".png"]::after { content: ""; }
 }
@@ -32,7 +29,10 @@ a {
     &::after { display: none; }
     & a::after { display: none; }
 }
-.article {
+
+a.internal-link.internal-link { background-color: transparent; }
+
+article {
     & a {
         font-family: var(--txt-fnt);
         font-weight: 600;
@@ -40,12 +40,14 @@ a {
         &.internal-link {
             text-decoration: none;
             background-color: var(--code-bg);
+            background-color: transparent;
             padding: 0 0.1em;
             margin: auto -0.1em;
     
-            &.broken {
+            &.broken.broken  {
                 color: var(--inactive);
                 background-color: transparent; 
+                opacity: 1;
             }
         }
     }

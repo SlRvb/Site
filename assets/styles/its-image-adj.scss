@@ -1,0 +1,117 @@
+
+
+/*Images*/
+p>img+em {
+    display: block;
+    transform: translateY(-1em);
+}
+
+img[alt*="cover"]{ object-fit: cover; }
+
+/*Height*/
+img[alt*="hmicro"]  { height: var(--micro);     }
+img[alt*="htiny"]   { height: var(--tiny);      }
+img[alt*="hsmall"]  { height: var(--small);     }
+img[alt*="hs-med"]  { height: var(--small-med); }
+img[alt*="hm-sm"]   { height: var(--med-small); }
+img[alt*="hmed"]    { height: var(--medium);    }
+img[alt*="hm-tl"]   { height: var(--med-tall);  }
+img[alt*="htall"]   { height: var(--tall);      }
+
+/*Width*/
+img[alt*="wmicro"]  { width: var(--micro);      }
+img[alt*="wtiny"]   { width: var(--tiny);       }
+img[alt*="wsmall"]  { width: var(--small);      }
+img[alt*="ws-med"]  { width: var(--small-med);  }
+img[alt*="wm-small"]{ width: var(--med-small);  }
+img[alt*="wmed"]    { width: var(--medium);     }
+img[alt*="wm-tl"]   { width: var(--med-tall);   }
+img[alt*="wtall"]   { width: var(--tall);       }
+
+
+/*--Image Position--*/
+/*Inner Image*/
+img[alt*="pt"]{
+object-fit: cover;
+object-position: top;
+}
+img[alt*="pb"] {
+object-fit: cover;
+object-position: bottom;
+}
+img[alt*="pl"] {
+object-fit: cover;
+object-position: left;
+}
+img[alt*="p+cl"] {
+object-fit: cover;
+object-position: 25%;
+}
+img[alt*="pr"] {
+object-fit: cover;
+object-position: right;
+}
+img[alt*="p+cr"] {
+object-fit: cover;
+object-position: 75%;
+}
+img[alt*="pc"] {
+object-fit: cover;
+object-position: center;
+}
+img[alt*="p+tc"] {
+object-fit: cover;
+object-position: 50% 10%;
+}
+img[alt*="p+tcc"] {
+object-fit: cover;
+object-position: 50% 20%;
+}
+img[alt*="p+cct"] {
+object-fit: cover;
+object-position: 50% 30%;
+}
+img[alt*="p+ct"] {
+object-fit: cover;
+object-position: 50% 40%;
+}
+img[alt*="p+cb"] {
+object-fit: cover;
+object-position: 50% 60%;
+}
+img[alt*="p+ccb"] {
+object-fit: cover;
+object-position: 50% 70%;
+}
+img[alt*="p+bc"] {
+object-fit: cover;
+object-position: 50% 80%;
+}
+img[alt*="p+bcc"] {
+object-fit: cover;
+object-position: 50% 90%;
+}
+
+
+/*Image Locations*/
+img[alt*="locl"] {
+float:left;
+margin-right: 2%;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+img[alt*="locr"] {
+float:right;
+margin-left: 2%;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+
+/*--Image Shapes--*/
+/*Banners*/
+img[alt*="sban"], .internal-embed img[alt*="sban"] {
+object-fit: cover;
+width: 100%;
+}

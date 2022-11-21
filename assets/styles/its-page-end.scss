@@ -5,9 +5,9 @@
             // list-style: circle;
             padding-left: 0;
             
-            // & li::before {
-            //     content: '';
-            // }
+            & li::before {
+                content: '';
+            }
             
             & > li {
                 margin: 0.5em 0;
@@ -24,4 +24,9 @@
         border: 2px solid var(--outline);
         box-shadow: 2px 2px 0 var(--outline);
     }
+}
+#contact_buttons footer ul li { 
+    border: 0; 
+
+    &::before { display: none; }
 }
